@@ -1,0 +1,13 @@
+pt-BR:
+  home:
+    loading: Carregando...
+
+    features:
+      title: Destaque
+      cooperatives_total: Associações cadastradas
+      providers_total: Fornecedores cadastrados
+      ongoing_licitations_total: Licitações em andamento
+
+    notifications:
+      title: Notificações
+      empty: Sem notificações

@@ -1,0 +1,113 @@
+pt-BR:
+  providers:
+    index:
+      title: Fornecedores
+      empty: Nenhum resultado
+      list:
+        title: Lista de Fornecedores
+      button:
+        new: Novo fornecedor
+      search:
+        placeholder: Busque por nome ou documento do fornecedor
+
+      destroy:
+        title: Excluir fornecedor
+        body: Tem certeza que deseja excluir esse fornecedor?
+
+      notifications:
+        destroy:
+          success: Fornecedor excluido com sucesso
+          failure: Houve um erro ao excluir a fornecedor
+
+    new:
+      title: Novo fornecedor
+      general:
+        title: Dados do fornecedor
+
+      classifications:
+        title: Categorias e segmentos
+        error: É necessário informar ao menos uma categoria e/ou segmento.
+        button:
+          add: Adicionar
+          remove: Remover
+
+      fields:
+        name:
+          placeholder: Informe o nome do fornecedor
+        cnpj:
+          placeholder: Informe o documento
+
+      button:
+        submit: Criar fornecedor
+        submitting: Criando fornecedor
+
+      notifications:
+        failure: Houve um erro ao criar o fornecedor
+
+
+    edit:
+      title: Editar fornecedor
+
+      notifications:
+        failure: Houve um erro ao editar o fornecedor
+
+      classifications:
+        title: Categorias e segmentos
+        error: É necessário informar ao menos uma categoria e/ou segmento.
+        button:
+          add: Adicionar
+          remove: Remover
+
+      button:
+        submit: Editar fornecedor
+        submitting: Editando fornecedor
+
+    show:
+      title: Dados do fornecedor
+
+      status:
+        title: 'Situação:'
+        blocked: bloqueado
+        unblocked: Acesso liberado
+
+      attachments:
+        title: Documentos
+        empty: Nenhum documento anexo
+
+      classifications:
+        title: Categorias e segmentos
+
+      events:
+        title: Eventos de bloqueio
+        empty: Nenhum evento de bloqueio
+
+        message: 'Evento de %{type} registrado no dia %{date}. Motivo: "%{comment}".'
+        done_by: 'Registrado por %{name}'
+
+        button:
+          block: Bloquear fornecedor
+          unblock: Desbloquear fornecedor
+        status:
+          blocked: 'bloqueio'
+          unblocked: 'desbloqueio'
+
+      notifications:
+        block:
+          success: Fornecedor bloqueado com sucesso!
+          failure: Não foi possível bloquear o fornecedor.
+        unblock:
+          success: Fornecedor desbloqueado com sucesso!
+          failure: Não foi possível desbloquear o fornecedor.
+
+      overlay:
+        block:
+          title: Bloquear fornecedor
+          alert: 'Atenção: Esta ação irá bloquear o acesso do fornecedor à plataforma'
+          label: Motivo do bloqueio
+          submit: Bloquear fornecedor
+
+        unblock:
+          title: Desbloquear fornecedor
+          alert: 'Atenção: Esta ação irá liberar o acesso do fornecedor à plataforma'
+          label: Motivo do desbloqueio
+          submit: Desbloquear fornecedor

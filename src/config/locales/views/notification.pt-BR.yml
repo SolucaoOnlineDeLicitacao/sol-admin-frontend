@@ -1,0 +1,5 @@
+pt-BR:
+  notifications:
+    index:
+      title: Notificações
+      empty: Sem resultados

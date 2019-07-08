@@ -1,0 +1,7 @@
+pt-BR:
+  components:
+    paginator:
+      first: Início
+      prev: Anterior
+      next: Próximo
+      last: Fim

@@ -1,0 +1,28 @@
+pt-BR:
+  biddings:
+    contracts:
+      index:
+        title: Contratos da licitação %{bidding}
+        empty: Nenhum contrato
+
+        search:
+          placeholder: Busque pelo número do contrato
+
+      show:
+        title: Contrato %{title}
+        general:
+          title: Dados gerais
+        actions:
+          title: Assinaturas
+
+        signatures:
+          title: Assinaturas
+          waiting: Aguardando assinatura
+          refused: Contrato recusado
+          not_signed: Contrato não assinado
+
+        refused:
+          at: 'Contrato recusado em %{value}'
+
+        button:
+          download: Baixar contrato original

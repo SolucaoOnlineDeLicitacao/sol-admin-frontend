@@ -1,0 +1,21 @@
+pt-BR:
+  navbar:
+    app: SOL
+    home: Início
+    users: Usuários
+    cooperatives: Associações
+    providers: Fornecedores
+    items: Itens de Custo
+    covenants: Convênios
+    integrations: Integrações
+    biddings: Licitações
+    reports: Relatórios
+    button:
+      logout:
+        label: Sair
+        labelOngoing: Saindo
+
+    notifications:
+      logout:
+        success: Sucesso!
+        failure: Erro ao sair!

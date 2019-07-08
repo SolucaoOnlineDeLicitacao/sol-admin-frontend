@@ -1,0 +1,46 @@
+pt-BR:
+  groups:
+    new:
+      title: Novo grupo
+      items:
+        title: Itens de custo do grupo
+
+      button:
+        submit: Criar grupo
+        submitting: Criando grupo
+
+      notifications:
+        failure: Houve um erro ao criar o grupo
+
+      add:
+        add: Adicionar
+        error: Preencha todos os campos para adicionar um item
+        already: O item já consta na listagem abaixo
+        list: Lista de itens
+
+    edit:
+      title: Editar grupo
+
+      items:
+        title: Itens de custo do grupo
+
+      button:
+        submit: Editar grupo
+        submitting: Editando grupo
+
+      notifications:
+        failure: Houve um erro ao editar o grupo
+
+      add:
+        add: Adicionar
+        error: Preencha todos os campos para adicionar um item
+        already: O item já consta na listagem abaixo
+        list: Lista de itens
+
+    show:
+      general:
+        title: Detalhes do grupo
+        edit: Editar
+
+      table:
+        available_quantity: Quantidade disponível/total

@@ -1,0 +1,40 @@
+.card {
+  padding: 20px;
+  border-radius: 4px;
+  background-color: $white;
+  border: solid 1px $white-two;
+
+  transition: 0.3s ease;
+
+  &.slim {
+    padding: 0;
+  }
+
+  &:hover {
+    transition: 0.3s ease;
+    box-shadow: 0px 2px 1px 1px hsla(0, 0%, 90%, 1);
+  }
+}
+
+// TODO refactor
+.card-group {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  flex-flow: row wrap;
+
+  .columns {
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+
+    flex: 1 0 0%;
+    margin-bottom: 0;
+    max-width: 30.66667%; // forces max width
+  }
+
+  .card {
+    flex: 1 1 auto;
+  }
+}

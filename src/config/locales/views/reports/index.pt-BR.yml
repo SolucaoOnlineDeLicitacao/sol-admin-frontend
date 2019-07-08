@@ -1,0 +1,41 @@
+pt-BR:
+  reports:
+    index:
+      title: Relatórios
+      chart:
+        title: Geral
+
+      tabs:
+        status: Licitações
+        contracts: Contratos
+        index: Relatórios gerais
+        reports: Relatórios gerados
+
+      report_name: Relatórios gerais
+
+      filter:
+        label: Filtrar por relatório
+
+      table:
+        status: Situação
+        type: Relatório
+        date: Data do processamento
+        file: Arquivo
+        empty: Sem resultados
+
+      button:
+        download: Gerar relatório
+        downloading: Gerando...
+        fetch: Baixar relatório
+
+      keys:
+        time: Licitação por tempo
+        items: Itens semelhantes
+        suppliers_biddings: Fornecedores e licitações
+        suppliers_contracts: Fornecedores e contratos
+
+      descriptions:
+        time: Relatório de licitações de acordo com o período de execução.
+        items: Relatório da variação do valor dos itens de custo.
+        suppliers_biddings: Relatório de fornecedores que mais participam de licitações.
+        suppliers_contracts: Relatório de fornecedores com maior número e valor de contratos.

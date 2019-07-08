@@ -1,0 +1,45 @@
+pt-BR:
+  covenants:
+    biddings:
+      lots:
+        proposals:
+          index:
+            title: Licitações
+            empty: Nenhuma proposta
+
+            proposal:
+              status: 'Proposta %{status}'
+              value: Valor da proposta
+              total: 'Valor total:'
+              refuse: 'Motivo da recusa:'
+
+            button:
+              cancelRefuse: Cancelar recusa
+              confirmRefuse: Confirmar recusa
+              reproveProposal: Reprovar proposta
+              confirmAccept: Aprovar proposta
+
+            cancelRefuseOverlay:
+              title: Cancelar recusa
+              alert: A recusa da proposta será cancelada e o sistema irá liberar as propostas para que a associação analise novamente.
+              label: Descreva a justificativa da recusa
+              button: Cancelar recusa
+
+            reproveProposalOverlay:
+              title: Reprovar proposta
+              alert: A reprovação da proposta será salva e o sistema irá liberar as propostas para que a associação analise novamente.
+              label: Descreva a justificativa da reprovação
+              button: Reprovar proposta
+
+            notifications:
+              accept:
+                success: Proposta aceita com sucesso.
+                failure: Houve um erro ao aceitar a proposta.
+
+              refuse:
+                success: Proposta recusada com sucesso.
+                failure: Houve um erro ao recusar a proposta.
+
+              fail:
+                success: Proposta recusada com sucesso.
+                failure: Houve um erro ao recusar a proposta.

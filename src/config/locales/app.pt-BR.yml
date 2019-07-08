@@ -1,0 +1,20 @@
+pt-BR:
+  app: 'sdc-admin-frontend.vue'
+
+  button:
+    search: Buscar
+    searching: Buscando
+
+  btn:
+    confirm: Confirmar
+    cancel: Cancelar
+
+  messages:
+    not_informed: não informado
+
+  options:
+    blank: Selecione uma opção
+    prompt: Selecione uma opção
+
+  search:
+    placeholder: Buscar...

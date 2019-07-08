@@ -1,0 +1,89 @@
+pt-BR:
+  covenants:
+    biddings:
+      index:
+        title: Licitações
+        list:
+          title: Aprovação de Licitação
+
+        search:
+          placeholder: Busque pelo número ou descrição (objeto) da licitação
+
+        button:
+          details: Lotes da licitação
+          proposals: Lista de propostas
+
+      show:
+        general:
+          title: Dados gerais
+        actions:
+          title: Ações
+
+        button:
+          details: Lotes da licitação
+          proposals: Lista de propostas
+          cancelRequest: Responder pedido de cancelamento
+          contracts: Contratos da licitação
+          edict: Baixar Edital
+          minute: Baixar Ata
+          approve: Liberar licitação
+          refuse: Recusar licitação
+          start: Iniciar licitação
+          review: Enviar para revisão
+          draw: Desempatar e enviar para revisão
+          failure: Fracassar licitação
+
+        cancelOverlay:
+          title: Cancelar Licitação
+          alert: Atenção! Essa ação não poderá ser desfeita.
+          reason: 'Motivo do cancelamento informado:'
+          label: Descreva a justificativa da resposta
+          button:
+            approve: Cancelar licitação
+            reprove: Recusar cancelamento
+
+        refuseOverlay:
+          title: Recusar Licitação
+          alert: A licitação será recusada e ficará disponível para a associação em modo rascunho para edição.
+          label: Descreva a justificativa da recusa
+          button: Recusar licitação
+
+        failureOverlay:
+          title: Fracassar Licitação
+          alert: A licitação e seus lotes serão fracassados. Atenção! Esta ação não poderá ser desfeita.
+          label: Descreva a justificativa do fracasso
+          button: Fracassar licitação
+
+        notifications:
+          finish:
+            success: Licitação finalizada com sucesso
+            failure: Houve um erro ao finalizar a licitação
+
+          fail:
+            success: Licitação fracassada com sucesso
+            failure: Houve um erro ao fracasar a licitação
+
+          ongoing:
+            success: Licitação iniciada com sucesso
+            failure: Houve um erro ao iniciar a licitação
+
+          approved:
+            success: Licitação liberada com sucesso
+            failure: Houve um erro ao liberar a licitação
+
+          reproved:
+            success: Licitação reprovada com sucesso
+            failure: Houve um erro ao reprovar a licitação
+
+          review:
+            success: Licitação atualizada com sucesso
+            failure: Houve um erro ao revisar a licitação
+
+          cancel:
+            approve:
+              success: Licitação cancelada com sucesso
+              failure: Houve um erro ao cancelar a licitação
+
+            reprove:
+              success: Cancelamento reprovado com sucesso
+              failure: Houve um erro ao reprovar o pedido de cancelamento

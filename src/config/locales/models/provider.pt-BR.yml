@@ -1,0 +1,22 @@
+pt-BR:
+  models:
+    provider:
+      one: Fornecedor
+      other: Fornecedores
+
+      attributes:
+        id: Código (ID)
+        name: Nome
+        document: Documento
+        type: Tipo
+        city: Município
+        classificationId: Classificação/Segmento
+        types:
+          individual: Pessoa Física
+          company: Pessoa Jurídica
+
+      errors:
+        name:
+          missing: Nome não pode ficar em branco
+        document:
+          missing: Documento não pode ficar em branco

@@ -1,0 +1,20 @@
+pt-BR:
+  models:
+    report:
+      one: Licitação
+      other: Licitações
+
+      attributes:
+        types:
+          biddings: Licitações
+          contracts: Contratos
+          time: Licitação por tempo
+          items: Itens semelhantes
+          suppliers_biddings: Fornecedores e licitações
+          suppliers_contracts: Fornecedores e contratos
+
+        statuses:
+          waiting: Enfileirado
+          processing: Em processamento
+          error: Erro
+          success: Gerado

@@ -1,0 +1,27 @@
+pt-BR:
+  reports:
+    biddings:
+      status:
+        title: Relatórios
+        chart:
+          title: Geral
+
+        tabs:
+          status: Licitações
+          contracts: Contratos
+          index: Relatórios gerais
+          reports: Relatórios gerados
+
+        report_name: Licitações
+
+        button:
+          download: Gerar relatório
+          downloading: Gerando...
+
+        dashboard:
+          total: 'Quantitade total de licitações:'
+          value: 'Valor estimado total das licitações:'
+
+        card:
+          total: 'Quantidade de licitações:'
+          value: 'Valor estimado das licitações:'

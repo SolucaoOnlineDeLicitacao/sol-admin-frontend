@@ -1,0 +1,27 @@
+pt-BR:
+  reports:
+    contracts:
+      classification:
+        title: Relatórios
+        chart:
+          title: Geral
+
+        tabs:
+          status: Licitações
+          contracts: Contratos
+          index: Relatórios gerais
+          reports: Relatórios gerados
+
+        report_name: Contratos
+
+        button:
+          download: Gerar relatório
+          downloading: Gerando...
+
+        dashboard:
+          total: 'Quantitade total de contratos:'
+          value: 'Valor total dos contratos:'
+
+        card:
+          total: 'Quantidade de contratos:'
+          value: 'Valor dos contratos:'

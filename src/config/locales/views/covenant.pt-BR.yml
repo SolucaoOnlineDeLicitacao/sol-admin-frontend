@@ -1,0 +1,79 @@
+pt-BR:
+  covenants:
+    index:
+      title: Convênios
+      empty: Sem resultados
+
+      list:
+        title: Lista de Convênios
+      button:
+        new: Novo convênio
+      search:
+        placeholder: Busque por nome ou número do convênio
+
+      destroy:
+        title: Excluir convênio
+        body: Tem certeza que deseja excluir esse convênio?
+
+      notifications:
+        destroy:
+          success: Convênio excluido com sucesso
+          failure: Houve um erro ao excluir o convênio. Existem licitações vinculadas ao convênio.
+
+    new:
+      title: Novo convênio
+      general:
+        title: Dados do convênio
+      work_plan:
+        title: Dados do Plano de trabalho
+
+      fields:
+        name:
+          placeholder: Informe o nome do convênio
+        number:
+          placeholder: Informe o número
+
+      button:
+        submit: Criar convênio
+        submitting: Criando convênio
+
+      notifications:
+        failure: Houve um erro ao criar o convênio
+
+
+    edit:
+      title: Editar convênio
+      general:
+        title: Dados do convênio
+      work_plan:
+        title: Dados do Plano de trabalho
+
+      notifications:
+        failure: Houve um erro ao editar o convênio
+
+      button:
+        submit: Editar convênio
+        submitting: Editando convênio
+
+    show:
+      title: Detalhes do convênio
+      general:
+        title: Dados do convênio
+
+      destroy:
+        title: Excluir grupo
+        body: Tem certeza que deseja excluir esse grupo?
+
+      notifications:
+        destroy:
+          success: Grupo excluido com sucesso
+          failure: Houve um erro ao excluir o grupo. Existem licitações vinculadas ao grupo.
+
+
+      work_plan:
+        title: Plano de Trabalho
+
+        groups:
+          empty: Nenhum grupo de itens
+          button:
+            new: Novo Grupo de itens

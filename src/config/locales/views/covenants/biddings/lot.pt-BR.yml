@@ -1,0 +1,13 @@
+pt-BR:
+  covenants:
+    biddings:
+      lots:
+        index:
+          title: Licitações
+          lot_group_items_count: Itens
+          list:
+            title: Lista de lotes
+          button:
+            details: Visualizar propostas
+
+          files: Arquivos do lote
