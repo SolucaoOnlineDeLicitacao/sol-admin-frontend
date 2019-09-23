@@ -21,13 +21,13 @@ pt-BR:
 
             cancelRefuseOverlay:
               title: Cancelar recusa
-              alert: A recusa da proposta será cancelada e o sistema irá liberar as propostas para que a associação analise novamente.
+              alert: A recusa da proposta será cancelada e o sistema irá liberar as propostas para que a Entidade analise novamente.
               label: Descreva a justificativa da recusa
               button: Cancelar recusa
 
             reproveProposalOverlay:
               title: Reprovar proposta
-              alert: A reprovação da proposta será salva e o sistema irá liberar as propostas para que a associação analise novamente.
+              alert: A reprovação da proposta será salva e o sistema irá liberar as propostas para que a Entidade analise novamente.
               label: Descreva a justificativa da reprovação
               button: Reprovar proposta
 

@@ -7,47 +7,47 @@ pt-BR:
       list:
         title: Lista de Associações
       button:
-        new: Nova associação
+        new: Nova entidade
       search:
-        placeholder: Busque por nome ou CNPJ da associação
+        placeholder: Busque por nome ou CNPJ da entidade
 
       destroy:
-        title: Excluir associação
-        body: Tem certeza que deseja excluir essa associação?
+        title: Excluir entidade
+        body: Tem certeza que deseja excluir essa entidade?
 
       notifications:
         destroy:
-          success: Associação excluida com sucesso
-          failure: Houve um erro ao excluir a associação. Existem convênios vinculado à associação.
+          success: Entidade excluida com sucesso
+          failure: Houve um erro ao excluir a entidade. Existem aquisições vinculado à entidade.
 
     new:
-      title: Nova associação
+      title: Nova entidade
 
       fields:
         name:
-          placeholder: Informe o nome da associação
+          placeholder: Informe o nome da entidade
         cnpj:
           placeholder: Informe o CNPJ
 
       button:
-        submit: Criar associação
-        submitting: Criando associação
+        submit: Criar entidade
+        submitting: Criando entidade
 
       notifications:
-        failure: Houve um erro ao criar a associação
+        failure: Houve um erro ao criar a entidade
 
 
     edit:
-      title: Editar associação
+      title: Editar entidade
 
       notifications:
-        failure: Houve um erro ao editar a associação
+        failure: Houve um erro ao editar a entidade
 
       button:
-        submit: Editar associação
-        submitting: Editando associação
+        submit: Editar entidade
+        submitting: Editando entidade
 
     show:
-      title: Dados da associação
+      title: Dados da entidade
       covenants:
-        title: Convênios da Associação
+        title: Aquisições da Entidade

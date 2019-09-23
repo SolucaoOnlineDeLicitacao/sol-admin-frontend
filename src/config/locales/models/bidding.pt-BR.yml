@@ -15,8 +15,8 @@ pt-BR:
         startDate: Data de início
         closingDate: Data de encerramento
         openingDate: Data de abertura
-        covenantId: Convênio
-        covenant: Convênio
+        covenantId: Aquisição
+        covenant: Aquisição
         address: Local de entrega
 
         statuses:
@@ -41,7 +41,7 @@ pt-BR:
 
       errors:
         covenant:
-          missing: Convênio não pode ficar em branco
+          missing: Aquisição não pode ficar em branco
         title:
           missing: Título não pode ficar em branco
         description:

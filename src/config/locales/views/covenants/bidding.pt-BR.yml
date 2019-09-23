@@ -44,7 +44,7 @@ pt-BR:
 
         refuseOverlay:
           title: Recusar Licitação
-          alert: A licitação será recusada e ficará disponível para a associação em modo rascunho para edição.
+          alert: A licitação será recusada e ficará disponível para a entidade em modo rascunho para edição.
           label: Descreva a justificativa da recusa
           button: Recusar licitação
 

@@ -2,7 +2,7 @@ pt-BR:
   models:
     cooperative:
       one: Associação
-      other: Associações
+      other: Entidades
 
       attributes:
         id: Código (ID)

@@ -1,11 +1,11 @@
 pt-BR:
   covenants:
     index:
-      title: Convênios
+      title: Aquisições
       empty: Sem resultados
 
       list:
-        title: Lista de Convênios
+        title: Lista de Aquisições
       button:
         new: Novo convênio
       search:

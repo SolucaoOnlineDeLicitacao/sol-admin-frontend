@@ -12,8 +12,8 @@ pt-BR:
         phone: Telefone
         roleId: Cargo
         roleTitle: Cargo
-        cooperativeId: Associação
-        cooperativeName: Associação
+        cooperativeId: Entidade
+        cooperativeName: Entidade
 
       errors:
         name:
@@ -25,5 +25,5 @@ pt-BR:
           missing: Telefone não pode ficar em branco
           invalid: 'Telefone não é válido. Formato: (00) 00000-0000'
         cooperative:
-          missing: Associação não pode ficar em branco
+          missing: Entidade não pode ficar em branco
 

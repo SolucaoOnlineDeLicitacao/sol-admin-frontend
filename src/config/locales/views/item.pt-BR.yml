@@ -13,12 +13,12 @@ pt-BR:
 
       destroy:
         title: Excluir item de custo
-        body: Tem certeza que deseja excluir esse item de custo? A exclusão do item irá removê-lo de todos os convênios.
+        body: Tem certeza que deseja excluir esse item de custo? A exclusão do item irá removê-lo de todos os aquisições.
 
       notifications:
         destroy:
           success: Item excluido com sucesso
-          failure: Houve um erro ao excluir a item. Item vinculado à um ou mais convênios
+          failure: Houve um erro ao excluir a item. Item vinculado à um ou mais aquisições
 
     new:
       title: Novo item

@@ -1,13 +1,13 @@
 pt-BR:
   users:
     index:
-      title: Usuários de associação
+      title: Usuários de entidade
       empty: Nenhum resultado
 
       list:
-        title: Lista de Usuários de associação
+        title: Lista de Usuários de entidade
       button:
-        new: Novo usuário de associação
+        new: Novo usuário de entidade
 
       search:
         placeholder: Busque por nome, cpf, telefone ou e-mail do usuário
@@ -17,7 +17,7 @@ pt-BR:
         body: Tem certeza que deseja excluir esse usuário?
 
       tabs:
-        users: Usuários de associação
+        users: Usuários de entidade
         suppliers: Usuários de fornecedor
         admins: Usuários de administração
 
@@ -27,7 +27,7 @@ pt-BR:
           failure: Houve um erro ao excluir a usuário
 
     new:
-      title: Novo usuário de associação
+      title: Novo usuário de entidade
       general:
         title: Dados do usuário
 
@@ -38,8 +38,8 @@ pt-BR:
           placeholder: Informe o documento
 
       button:
-        submit: Criar usuário de associação
-        submitting: Criando usuário de associação
+        submit: Criar usuário de entidade
+        submitting: Criando usuário de entidade
 
       notifications:
         failure: Houve um erro ao criar o usuário
@@ -52,8 +52,8 @@ pt-BR:
         failure: Houve um erro ao editar o usuário
 
       button:
-        submit: Editar usuário de associação
-        submitting: Editando usuário de associação
+        submit: Editar usuário de entidade
+        submitting: Editando usuário de entidade
 
     show:
       title: Dados do usuário

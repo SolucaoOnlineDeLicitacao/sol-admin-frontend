@@ -18,7 +18,7 @@ pt-BR:
       notifications:
         destroy:
           success: Usuário excluido com sucesso
-          failure: Houve um erro ao excluir a usuário. Existem convênios vinculados ao usuário.
+          failure: Houve um erro ao excluir a usuário. Existem Aquisições vinculados ao usuário.
 
     new:
       title: Novo usuário de administração
@@ -52,5 +52,5 @@ pt-BR:
     show:
       title: Dados do usuário
       covenants:
-        title: Convênios
-        description: Lista de convênios onde este usuário atua como Revisor
+        title: Aquisições
+        description: Lista de aquisições onde este usuário atua como Revisor
