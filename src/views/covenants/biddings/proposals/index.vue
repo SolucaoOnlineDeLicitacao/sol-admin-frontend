@@ -125,7 +125,7 @@
                   | {{ lot_group_item_lot_proposal.lot_group_item.item_short_name }}
 
                 td(width="20%")
-                  | {{ $asNumber(lot_group_item_lot_proposal.lot_group_item.quantity, { precision: 0 }) }}
+                  | {{ $asNumber(lot_group_item_lot_proposal.lot_group_item.quantity, { precision: 2 }) }}
 
                 td(width="30%")
                   |  {{ $asCurrency(lot_group_item_lot_proposal.price) }}

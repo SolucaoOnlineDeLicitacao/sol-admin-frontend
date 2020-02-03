@@ -78,7 +78,7 @@
                   | {{ lot_group_item.item_short_name }}
 
                 td(width="30%")
-                  | {{ lot_group_item.quantity }}
+                  | {{ $asNumber(lot_group_item.quantity, { precision: 2 }) }}
                   | {{ lot_group_item.item_unit }}
 
         .row.mt-2(v-if="lot && lot.attachments.length > 0")

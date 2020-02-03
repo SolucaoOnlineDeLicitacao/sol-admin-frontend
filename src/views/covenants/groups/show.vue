@@ -55,7 +55,7 @@
                   | {{ group_item.item_name }}
 
               td(width="30%")
-                | {{ $asNumber(group_item.available_quantity, { precision: 0 }) }} / {{ $asNumber(group_item.quantity, { precision: 0 }) }}
+                | {{ $asNumber(group_item.available_quantity, { precision: 2 }) }} / {{ $asNumber(group_item.quantity, { precision: 2 }) }}
                 | {{ group_item.item_unit }}(s)
 
               td(width="20%")

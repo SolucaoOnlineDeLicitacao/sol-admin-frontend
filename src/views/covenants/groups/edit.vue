@@ -66,9 +66,9 @@
             input-field(
               :autofocus="true",
               model="group_item",
-              type="number",
+              type="text",
               v-model="group_item.quantity",
-              mask="9999990",
+              mask="999999999999,09",
               name="group_item[quantity]"
             )
 
@@ -79,7 +79,7 @@
               type="text",
               v-model="group_item.estimated_cost",
               name="group_item[estimated_cost]",
-              mask="999999999999,99"
+              mask="999999999999,09"
             )
 
           .two.columns
@@ -115,9 +115,9 @@
                   v-if="group_item",
                   :autofocus="true",
                   model="group_item",
-                  type="number",
+                  type="text",
                   v-model="group_item.quantity",
-                  mask="9999990",
+                  mask="999999999999,09",
                   name="group[group_items_attributes][][quantity]",
                   :error="groupItemErrors[index] && groupItemErrors[index]['quantity']",
                 )
@@ -131,7 +131,7 @@
                   v-model="group_item.estimated_cost",
                   name="group[group_items_attributes][][estimated_cost]",
                   :error="groupItemErrors[index] && groupItemErrors[index]['estimated_cost']",
-                  mask="999999999999,99"
+                  mask="999999999999,09"
                 )
 
               td(v-if="!group_item._destroy")
