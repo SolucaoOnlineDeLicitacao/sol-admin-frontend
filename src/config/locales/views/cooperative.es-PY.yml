@@ -1,0 +1,54 @@
+﻿es-PY:
+  cooperatives:
+    index:
+      title: Asociaciones
+      empty: Sin resultados
+
+      list:
+        title: Lista de asociaciones
+      button:
+        new: Nueva asociación
+      search:
+        placeholder: Busque por nombre o CNPJ de la asociación
+
+      destroy:
+        title: Eliminar asociación
+        body: ¿Está seguro de que desea eliminar esta asociación?
+
+      notifications:
+        destroy:
+          success: Asociación eliminada con éxito
+          failure: Hubo un error al eliminar la asociación. Existen convenios vinculados a la asociación.
+
+    new:
+      title: Nueva asociación
+      cooperative_data: Datos de la asociación
+
+      fields:
+        name:
+          placeholder: Informe el nombre de la asociación
+        cnpj:
+          placeholder: Informe el CNPJ
+
+      button:
+        submit: Crear asociación
+        submitting: Creando asociación
+
+      notifications:
+        failure: Hubo un error al crear la asociación
+
+
+    edit:
+      title: Editar asociación
+
+      notifications:
+        failure: Hubo un error al editar la asociación
+
+      button:
+        submit: Editar asociación
+        submitting: Editando asociación
+
+    show:
+      title: Datos de la asociación
+      covenants:
+        title: Convenios de la asociación

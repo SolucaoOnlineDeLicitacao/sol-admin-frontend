@@ -63,7 +63,7 @@
           // data is the <option> tags for <select>
           data:        this.options,
           placeholder: this.placeholder,
-          language: "pt-BR"
+          language:    this.$i18n.locale
         }
 
         // see https://select2.github.io/examples.html#hide-search

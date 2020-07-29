@@ -1,0 +1,79 @@
+﻿en-US:
+  covenants:
+    index:
+      title: Covenants
+      empty: No results
+
+      list:
+        title: List of Covenants
+      button:
+        new: New covenant
+      search:
+        placeholder: Search by covenant name or number
+
+      destroy:
+        title: Delete covenant
+        body: Are you sure you wish to delete this covenant?
+
+      notifications:
+        destroy:
+          success: Covenant successfully deleted
+          failure: An error occurred when deleting the covenant. There are procurement processes linked to this covenant.
+
+    new:
+      title: New covenant
+      general:
+        title: Covenant data
+      work_plan:
+        title: Work plan data
+
+      fields:
+        name:
+          placeholder: Enter covenant name
+        number:
+          placeholder: Enter number
+
+      button:
+        submit: Create covenant
+        submitting: Creating covenant
+
+      notifications:
+        failure: An error occurred when creating the covenant
+
+
+    edit:
+      title: Edit covenant
+      general:
+        title: Covenant data
+      work_plan:
+        title: Work plan data
+
+      notifications:
+        failure: An error occurred when editing the covenant
+
+      button:
+        submit: Edit covenant
+        submitting: Editing covenant
+
+    show:
+      title: Covenant details
+      general:
+        title: Covenant data
+
+      destroy:
+        title: Delete group
+        body: Are you sure you wish to delete this group?
+
+      notifications:
+        destroy:
+          success: Group successfully deleted
+          failure: An error occurred when deleting the group. There are procurement processes linked to this group.
+
+
+      work_plan:
+        title: Work Plan
+
+        groups:
+          empty: No item group
+          button:
+            new: New Item group

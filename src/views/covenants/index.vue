@@ -53,7 +53,7 @@
             template(v-if="$ability.canManage('Covenant')")
               td
                 router-link.button.router-link(:to="{ name: 'editCovenant', params: { id: covenant.id } }")
-                  | Editar
+                  | {{ $t('btn.edit') }}
 
               td-destroy(:id="covenant.id", :title="$t('.destroy.title')", :body="$t('.destroy.body')", @success="destroy(covenant.id)")
 

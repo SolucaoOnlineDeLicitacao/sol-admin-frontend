@@ -1,0 +1,79 @@
+﻿es-PY:
+  covenants:
+    index:
+      title: Convenios
+      empty: Sin resultados
+
+      list:
+        title: Lista de convenios
+      button:
+        new: Nuevo convenio
+      search:
+        placeholder: Busque por nombre o número del convenio
+
+      destroy:
+        title: Eliminar convenio
+        body: ¿Está seguro de que desea eliminar este convenio?
+
+      notifications:
+        destroy:
+          success: Convenio eliminado con éxito
+          failure: Hubo un error al eliminar el convenio. Existen licitaciones vinculadas al convenio.
+
+    new:
+      title: Nuevo convenio
+      general:
+        title: Datos del convenio
+      work_plan:
+        title: Datos del plan de trabajo
+
+      fields:
+        name:
+          placeholder: Informe el nombre del convenio
+        number:
+          placeholder: Informe el número
+
+      button:
+        submit: Crear convenio
+        submitting: Creando convenio
+
+      notifications:
+        failure: Hubo un error al crear el convenio
+
+
+    edit:
+      title: Editar convenio
+      general:
+        title: Datos del convenio
+      work_plan:
+        title: Datos del plan de trabajo
+
+      notifications:
+        failure: Hubo un error al editar el convenio
+
+      button:
+        submit: Editar convenio
+        submitting: Editando convenio
+
+    show:
+      title: Detalles del convenio
+      general:
+        title: Datos del convenio
+
+      destroy:
+        title: Eliminar grupo
+        body: ¿Está seguro de que desea eliminar este grupo?
+
+      notifications:
+        destroy:
+          success: Grupo eliminado con éxito
+          failure: Hubo un error al eliminar el grupo. Existen licitaciones vinculadas al grupo.
+
+
+      work_plan:
+        title: Plan de trabajo
+
+        groups:
+          empty: Ningún grupo de ítems
+          button:
+            new: Nuevo grupo de ítems

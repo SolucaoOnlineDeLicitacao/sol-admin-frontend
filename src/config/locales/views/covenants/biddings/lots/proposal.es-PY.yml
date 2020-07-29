@@ -1,0 +1,46 @@
+﻿es-PY:
+  covenants:
+    biddings:
+      lots:
+        proposals:
+          index:
+            title: Licitaciones
+            empty: Ninguna propuesta
+            loading: Cargando propuestas...
+
+            proposal:
+              status: 'Propuesta %{status}'
+              value: Valor de la propuesta
+              total: 'Valor total:'
+              refuse: 'Motivo del rechazo:'
+
+            button:
+              cancelRefuse: Cancelar rechazo
+              confirmRefuse: Confirmar rechazo
+              reproveProposal: Reprobar propuesta
+              confirmAccept: Aprobar propuesta
+
+            cancelRefuseOverlay:
+              title: Cancelar rechazo
+              alert: El rechazo de la propuesta se cancelará y el sistema liberará las propuestas para que la asociación analice nuevamente.
+              label: Describa la justificación del rechazo
+              button: Cancelar rechazo
+
+            reproveProposalOverlay:
+              title: Reprobar propuesta
+              alert: La reprobación de la propuesta se guardará y el sistema liberará las propuestas para que la asociación analice nuevamente.
+              label: Describa la justificación de la reprobación
+              button: Reprobar propuesta
+
+            notifications:
+              accept:
+                success: La propuesta ha sido aceptada con éxito.
+                failure: Hubo un error al aceptar la propuesta.
+
+              refuse:
+                success: La propuesta ha sido rechazada con éxito.
+                failure: Hubo un error al rechazar la propuesta.
+
+              fail:
+                success: La propuesta ha sido rechazada con éxito.
+                failure: Hubo un error al rechazar la propuesta.

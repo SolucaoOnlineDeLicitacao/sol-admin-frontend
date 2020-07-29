@@ -1,0 +1,20 @@
+﻿es-PY:
+  models:
+    report:
+      one: Licitación
+      other: Licitaciones
+
+      attributes:
+        types:
+          biddings: Licitaciones
+          contracts: Contratos
+          time: Licitación por tiempo
+          items: Ítems semejantes
+          suppliers_biddings: Proveedores y licitaciones
+          suppliers_contracts: Proveedores y contratos
+
+        statuses:
+          waiting: En cola
+          processing: En procesamiento
+          error: Error
+          success: Generado

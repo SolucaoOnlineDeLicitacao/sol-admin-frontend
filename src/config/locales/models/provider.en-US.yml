@@ -1,0 +1,22 @@
+﻿en-US:
+  models:
+    provider:
+      one: Vendor
+      other: Vendors
+
+      attributes:
+        id: Code (ID)
+        name: Name
+        document: Document
+        type: Type
+        city: Municipality
+        classificationId: Classification/Segment
+        types:
+          individual: Individual
+          company: Corporation
+
+      errors:
+        name:
+          missing: Name cannot be blank
+        document:
+          missing: Document cannot be blank

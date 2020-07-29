@@ -56,7 +56,7 @@
       slot
 
       th.action(colspan="2" v-if="$ability.canManage(resourceClass)")
-        | Ações
+        | {{ $t('.actions') }}
 
 </template>
 

@@ -1,0 +1,28 @@
+﻿es-PY:
+  biddings:
+    contracts:
+      index:
+        title: Contratos de la licitación %{bidding}
+        empty: Sin resultados
+
+        search:
+          placeholder: Busque por el número del contrato
+
+      show:
+        title: Contrato %{title}
+        general:
+          title: Datos generales
+        actions:
+          title: Firmas
+
+        signatures:
+          title: Firmas
+          waiting: A la espera de firma
+          refused: Contrato rechazado
+          not_signed: Contrato no firmado
+
+        refused:
+          at: 'Contrato rechazado en %{value}'
+
+        button:
+          download: Descargar contrato original

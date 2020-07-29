@@ -1,0 +1,14 @@
+﻿en-US:
+  home:
+    loading: Loading...
+    dashboard: Dashboard
+
+    features:
+      title: Highlight
+      cooperatives_total: Cooperatives registered
+      providers_total: Vendors registered
+      ongoing_licitations_total: Ongoing procurement processes
+
+    notifications:
+      title: Notifications
+      empty: No notifications

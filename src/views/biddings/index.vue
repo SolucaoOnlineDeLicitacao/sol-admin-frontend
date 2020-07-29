@@ -71,7 +71,7 @@
               hr.mb-2.mt-2
 
               router-link.router-link.button.u-full-width.mb-0(:to="{ name: 'bidding', params: { id: bidding.id }}")
-                | Detalhes
+                | {{ $t('.details') }}
 
       .row
         .twelve.columns

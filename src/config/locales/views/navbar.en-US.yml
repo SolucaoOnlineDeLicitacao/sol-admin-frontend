@@ -1,0 +1,21 @@
+﻿en-US:
+  navbar:
+    app: SOL
+    home: Start
+    users: Users
+    cooperatives: Cooperatives
+    providers: Vendors
+    items: Cost Items
+    covenants: Covenants
+    integrations: Integrations
+    biddings: Procurement Processes
+    reports: Reports
+    button:
+      logout:
+        label: Exit
+        labelOngoing: Exiting
+
+    notifications:
+      logout:
+        success: Success!
+        failure: Error when exiting!

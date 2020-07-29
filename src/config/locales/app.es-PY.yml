@@ -1,0 +1,26 @@
+﻿es-PY:
+  app: 'sdc-admin-frontend.vue'
+
+  button:
+    search: Buscar
+    searching: Buscando
+
+  btn:
+    confirm: Confirmar
+    cancel: Cancelar
+    edit: Editar
+    destroy: Eliminar
+
+  messages:
+    not_informed: no informado
+
+  options:
+    blank: Seleccione una opción
+    prompt: Seleccione una opción
+
+  search:
+    placeholder: Buscar...
+
+  dialog:
+    back: Volver
+    destroy: Eliminar

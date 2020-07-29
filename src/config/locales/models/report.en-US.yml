@@ -1,0 +1,20 @@
+﻿en-US:
+  models:
+    report:
+      one: Procurement process
+      other: Procurement Processes
+
+      attributes:
+        types:
+          biddings: Procurement Processes
+          contracts: Contracts
+          time: Procurement process by time
+          items: Similar items
+          suppliers_biddings: Vendors and procurement processes
+          suppliers_contracts: Vendors and contracts
+
+        statuses:
+          waiting: On queue
+          processing: Processing
+          error: Error
+          success: Generated

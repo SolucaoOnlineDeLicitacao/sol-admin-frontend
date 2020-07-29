@@ -8,6 +8,14 @@ pt-BR:
         submitting: Editando integração
         import: Forçar integração
         importing: Integrando
+        cancel: Cancelar
+
+      modal:
+        title: Detalhes da importação
+        last_import: "Última importação:"
+        import_log: "Log da importação:"
+        not_informed: Não informado
+        no_informations: Sem informações
 
       notifications:
         cooperative:

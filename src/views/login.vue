@@ -87,7 +87,7 @@
             type="text",
             v-model="email",
             name="admin[email]",
-            label="E-mail",
+            :label="$t('.fields.username.label')",
             :error="errors.admin"
           )
 
@@ -142,6 +142,8 @@
 
             // autentica o usuário no client
             app.auth.login({ user: response.data.user, token: response.data.access_token })
+
+            app.i18n.locale = response.data.user.locale
 
             let redirectToRoute = this.redirect ? { path: this.redirect } : { name: 'home' }
             this.$router.replace(redirectToRoute)

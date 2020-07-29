@@ -28,7 +28,8 @@
 
         .row
           .twelve.columns
-            h4.title Dados da Associação
+            h4.title
+              | {{ $t('.cooperative_data') }}
 
         .row
           .eight.columns
@@ -83,7 +84,7 @@
               model="legal_representative",
               v-model="legal_representative.civil_state",
               :options="civilStates",
-              placeholder="Selecione uma opção",
+              :placeholder="$t('options.blank')",
               :error="errorsLegalRepresentative['legal_representative.civil_state']"
             )
 

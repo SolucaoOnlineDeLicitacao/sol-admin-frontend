@@ -6,7 +6,7 @@
       switch-field.u-pull-right(
         name="unreads",
         v-model="unreads",
-        label="Apenas notificações não lidas"
+        :label="this.$t('.unread')"
       )
     .container.tool.notifications.u-cf
       template(v-if="notificationsCount")

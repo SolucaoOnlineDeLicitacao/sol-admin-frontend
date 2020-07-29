@@ -46,7 +46,7 @@
             template(v-if="$ability.canManage('Cooperative')")
               td
                 router-link.button.router-link(:to="{ name: 'editCooperative', params: { id: cooperative.id } }")
-                  | Editar
+                  | {{ $t('btn.edit') }}
 
               td-destroy(:id="cooperative.id", :title="$t('.destroy.title')", :body="$t('.destroy.body')", @success="destroy(cooperative.id)")
 
@@ -179,28 +179,6 @@
           .catch((_err) => {
             this.$notifications.error(this.$t('.notifications.destroy.failure', { id }))
           })
-      },
-
-      destroyDialog(id) {
-        let message = {
-          title: 'Excluir Associação',
-          body: 'Tem certeza que deseja excluir esta Associação?'
-        }
-
-        let options = {
-          cancelText: 'Voltar',
-          okText: 'Excluir',
-          customClass: 'dg-delete'
-        }
-
-        this.$dialog.confirm(message, options)
-          .then((dialog) => {
-            this.destroy(id)
-          })
-          .catch(function (err) {
-            console.log(err)
-            console.log('nop!')
-          });
       },
 
       init() {

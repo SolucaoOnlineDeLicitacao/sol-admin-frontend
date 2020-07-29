@@ -1,0 +1,113 @@
+﻿en-US:
+  providers:
+    index:
+      title: Vendors
+      empty: No results
+      list:
+        title: List of Vendors
+      button:
+        new: New vendor
+      search:
+        placeholder: Search by vendor name or document
+
+      destroy:
+        title: Delete vendor
+        body: Are you sure you wish to delete this vendor?
+
+      notifications:
+        destroy:
+          success: Vendor successfully deleted
+          failure: An error occurred when deleting the vendor
+
+    new:
+      title: New vendor
+      general:
+        title: Vendor data
+
+      classifications:
+        title: Categories and segments
+        error: Enter at least one category and/or segment.
+        button:
+          add: Add
+          remove: Delete
+
+      fields:
+        name:
+          placeholder: Enter vendor name
+        cnpj:
+          placeholder: Enter document
+
+      button:
+        submit: Create vendor
+        submitting: Creating vendor
+
+      notifications:
+        failure: An error occurred when creating the vendor
+
+
+    edit:
+      title: Edit vendor
+
+      notifications:
+        failure: An error occurred when editing the vendor
+
+      classifications:
+        title: Categories and segments
+        error: Enter at least one category and/or segment.
+        button:
+          add: Add
+          remove: Delete
+
+      button:
+        submit: Edit vendor
+        submitting: Editing vendor
+
+    show:
+      title: Vendor data
+
+      status:
+        title: 'Status:'
+        blocked: locked
+        unblocked: Access granted
+
+      attachments:
+        title: Documents
+        empty: No document attached
+
+      classifications:
+        title: Categories and segments
+
+      events:
+        title: Lock events
+        empty: No lock events
+
+        message: '%{type} event recorded on %{date}. Reason: "%{comment}".'
+        done_by: 'Recorded by %{name}'
+
+        button:
+          block: Lock vendor
+          unblock: Unlock vendor
+        status:
+          blocked: 'Lock'
+          unblocked: 'Unlock'
+
+      notifications:
+        block:
+          success: Vendor successfully locked!
+          failure: Unable to lock vendor.
+        unblock:
+          success: Vendor successfully unlocked!
+          failure: Unable to unlock vendor.
+
+      overlay:
+        block:
+          title: Lock vendor
+          alert: 'Attention: This will prevent the vendor from accessing the platform'
+          label: Reason for lock
+          submit: Lock vendor
+
+        unblock:
+          title: Unlock vendor
+          alert: 'Attention: This will allow the vendor to access the platform'
+          label: Reason for unlock
+          submit: Unlock vendor

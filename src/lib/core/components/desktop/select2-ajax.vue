@@ -42,7 +42,7 @@
         let options = {
           data:        this.options,
           placeholder: this.placeholder,
-          language: "pt-BR",
+          language:    this.$i18n.locale,
 
           allowClear: false,
           minimumInputLength: 3,

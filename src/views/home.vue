@@ -48,7 +48,7 @@
 
 <template lang="pug">
   .root
-    headers(title='Dashboard' classes='')
+    headers(:title="$t('.dashboard')" classes='')
     ll-map(:markers="markers" :classes='loadingClasses', @boundsChanged="updateBounds")
 
     .container.tool.home.mb-2

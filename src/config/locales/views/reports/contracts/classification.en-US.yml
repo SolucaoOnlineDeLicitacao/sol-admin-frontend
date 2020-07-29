@@ -1,0 +1,27 @@
+﻿en-US:
+  reports:
+    contracts:
+      classification:
+        title: Reports
+        chart:
+          title: General
+
+        tabs:
+          status: Procurement Processes
+          contracts: Contracts
+          index: General reports
+          reports: Reports generated
+
+        report_name: Contracts
+
+        button:
+          download: Generate report
+          downloading: Generating...
+
+        dashboard:
+          total: 'Total number of contracts:'
+          value: 'Total value of contracts:'
+
+        card:
+          total: 'Number of contracts:'
+          value: 'Value of contracts:'

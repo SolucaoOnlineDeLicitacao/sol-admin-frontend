@@ -3,7 +3,7 @@ pt-BR:
     contracts:
       index:
         title: Contratos da licitação %{bidding}
-        empty: Nenhum contrato
+        empty: Sem resultados
 
         search:
           placeholder: Busque pelo número do contrato

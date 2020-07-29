@@ -1,0 +1,41 @@
+﻿es-PY:
+  reports:
+    index:
+      title: Informes
+      chart:
+        title: General
+
+      tabs:
+        status: Licitaciones
+        contracts: Contratos
+        index: Informes generales
+        reports: Informes generados
+
+      report_name: Informes generales
+
+      filter:
+        label: Filtrar por informe
+
+      table:
+        status: Situación
+        type: Informe
+        date: Fecha de procesamiento
+        file: Archivo
+        empty: Sin resultados
+
+      button:
+        download: Generar informe
+        downloading: Generando...
+        fetch: Descargar informe
+
+      keys:
+        time: Licitación por tiempo
+        items: Ítems semejantes
+        suppliers_biddings: Proveedores y licitaciones
+        suppliers_contracts: Proveedores y contratos
+
+      descriptions:
+        time: Informe de licitaciones de acuerdo con el período de ejecución.
+        items: Informe sobre la variación del valor de los ítems de costo.
+        suppliers_biddings: Informe de proveedores que más participan de licitaciones.
+        suppliers_contracts: Informe de proveedores con mayor número y valor de contratos.

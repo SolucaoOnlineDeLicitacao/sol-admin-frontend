@@ -60,7 +60,7 @@
 <template lang="pug">
 
   #view
-    navbar(v-if="$auth.isAuthenticated()")
+    navbar(:key="$route.fullPath" v-if="$auth.isAuthenticated()")
 
     loading.loading
     notifications.notifications
@@ -74,6 +74,8 @@
 
   const DEFAULT_ROUTE_TRANSITION_NAME = 'none'
   const DEFAULT_ROUTE_TRANSITION_MODE = 'out-in'
+
+  import auth from './lib/core/modules/auth'
 
   export default {
     data() {
@@ -93,6 +95,12 @@
           mode: _.dig(to, 'meta', 'transition', 'mode') || DEFAULT_ROUTE_TRANSITION_MODE
         }
       }
+    },
+
+    beforeCreate: function() {
+      if (auth.user == null) return
+
+      this.$i18n.locale = auth.user.locale
     }
   }
 

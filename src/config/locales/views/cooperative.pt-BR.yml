@@ -22,6 +22,7 @@ pt-BR:
 
     new:
       title: Nova associação
+      cooperative_data: Dados da Associação
 
       fields:
         name:

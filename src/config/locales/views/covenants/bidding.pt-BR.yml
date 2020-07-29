@@ -9,6 +9,8 @@ pt-BR:
         search:
           placeholder: Busque pelo número ou descrição (objeto) da licitação
 
+        details: Detalhes
+
         button:
           details: Lotes da licitação
           proposals: Lista de propostas

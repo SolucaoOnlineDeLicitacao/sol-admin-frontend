@@ -1,6 +1,7 @@
 pt-BR:
   home:
     loading: Carregando...
+    dashboard: Dashboard
 
     features:
       title: Destaque
