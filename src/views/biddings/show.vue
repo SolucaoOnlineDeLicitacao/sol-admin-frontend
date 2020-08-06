@@ -111,7 +111,7 @@
                 .button.button-secondary.u-full-width(@click="showRefuseOverlay = true")
                   | {{ $t('.button.refuse') }}
 
-              .button.button-primary.u-full-width(v-if="bidding.status == 'approved' && $ability.canManage('Bidding')" @click="startBidding(bidding)")
+              .button.button-primary.u-full-width(v-if="bidding.status == 'approved' && $ability.canManage('Bidding') && $ability.canStartBidding()" @click="startBidding(bidding)")
                 | {{ $t('.button.start') }}
 
               .button.button-primary.u-full-width(v-else-if="bidding.status == 'ongoing' && $ability.canManage('Bidding')" @click="reviewBidding(bidding)")
