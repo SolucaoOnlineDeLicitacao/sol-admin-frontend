@@ -1,0 +1,6 @@
+﻿es-PY:
+  notifications:
+    index:
+      title: Notificaciones
+      empty: Sin resultados
+      unread: Solo notificaciones no leídas

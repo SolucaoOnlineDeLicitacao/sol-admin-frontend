@@ -1,0 +1,46 @@
+﻿en-US:
+  covenants:
+    biddings:
+      lots:
+        proposals:
+          index:
+            title: Procurement Processes
+            empty: No proposal
+            loading: Loading proposals...
+
+            proposal:
+              status: 'Proposal %{status}'
+              value: Proposal value
+              total: 'Total value:'
+              refuse: 'Reason for rejection:'
+
+            button:
+              cancelRefuse: Cancel rejection
+              confirmRefuse: Confirm rejection
+              reproveProposal: Reject proposal
+              confirmAccept: Approve proposal
+
+            cancelRefuseOverlay:
+              title: Cancel rejection
+              alert: The proposal rejection will be canceled and the system will clear proposals for cooperative review.
+              label: Rejection justification description
+              button: Cancel rejection
+
+            reproveProposalOverlay:
+              title: Reject proposal
+              alert: The proposal rejection will be saved and the system will clear proposals for cooperative review.
+              label: Rejection justification description
+              button: Reject proposal
+
+            notifications:
+              accept:
+                success: Proposal successfully accepted.
+                failure: An error occurred when accepting the proposal.
+
+              refuse:
+                success: Proposal successfully rejected.
+                failure: An error occurred when rejecting the proposal.
+
+              fail:
+                success: Proposal successfully rejected.
+                failure: An error occurred when rejecting the proposal.

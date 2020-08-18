@@ -1,0 +1,27 @@
+﻿es-PY:
+  reports:
+    contracts:
+      classification:
+        title: Informes
+        chart:
+          title: General
+
+        tabs:
+          status: Licitaciones
+          contracts: Contratos
+          index: Informes generales
+          reports: Informes generados
+
+        report_name: Contratos
+
+        button:
+          download: Generar informe
+          downloading: Generando...
+
+        dashboard:
+          total: 'Cantidad total de contratos:'
+          value: 'Valor total de los contratos:'
+
+        card:
+          total: 'Cantidad de contratos:'
+          value: 'Valor de los contratos:'

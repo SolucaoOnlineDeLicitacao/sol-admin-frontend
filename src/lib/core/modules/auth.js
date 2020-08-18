@@ -40,6 +40,10 @@ const auth = {
     return store.set('token', value)
   },
 
+  setUser(user) {
+    this.user = user
+  },
+
   clear() {
     this.user = null
     this.token = null

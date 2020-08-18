@@ -1,0 +1,14 @@
+﻿es-PY:
+  home:
+    loading: Cargando...
+    dashboard: Dashboard
+
+    features:
+      title: Destacado
+      cooperatives_total: Asociaciones registradas
+      providers_total: Proveedores registrados
+      ongoing_licitations_total: Licitaciones en curso
+
+    notifications:
+      title: Notificaciones
+      empty: Sin notificaciones

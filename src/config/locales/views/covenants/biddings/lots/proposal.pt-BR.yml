@@ -6,6 +6,7 @@ pt-BR:
           index:
             title: Licitações
             empty: Nenhuma proposta
+            loading: Carregando propostas...
 
             proposal:
               status: 'Proposta %{status}'

@@ -1,5 +1,4 @@
 <style scoped lang="scss">
-
   .avatar {
     display: block;
     margin-left: auto;
@@ -22,9 +21,7 @@
   .input-file {
     display: none;
   }
-
 </style>
-
 
 <template lang="pug">
   .mt-2.container
@@ -58,6 +55,14 @@
               :error="errors.password_confirmation"
             )
 
+            select-field(
+              name="admin[locale]",
+              v-model="locale",
+              :options="locales",
+              :error="errors.locale",
+              :label="$t('.languages')"
+            )
+
         .row
           button.mb-0.button-primary.u-pull-right(
             type="submit",
@@ -79,6 +84,13 @@
         submitting: false,
         admin: null,
         params: null,
+
+        locales: [
+          { id: 'es-PY', text: this.$t('profile.edit.locale.spanish') },
+          { id: 'en-US', text: this.$t('profile.edit.locale.english') },
+          { id: 'pt-BR', text: this.$t('profile.edit.locale.portuguese') }
+        ],
+        locale: app.auth.user.locale
       }
     },
 
@@ -100,9 +112,18 @@
 
         this.$http.patch('/administrator/profile', formData)
           .then((response) => {
+            this.errors = {}
+
+            this.$auth.setUser(response.data.admin)
+
+            // nesse momento atualizamos o locale
+            app.store.set('locale', this.locale)
+            app.i18n.locale = this.locale
+
             this.$notifications.clear()
             this.$notifications.info(this.$t('.notifications.success'))
-            this.errors = {}
+
+            this.$router.replace({ name: "home" })
           })
           .catch((err) => {
             let errors = _.dig(err, 'response', 'data', 'errors') || {}

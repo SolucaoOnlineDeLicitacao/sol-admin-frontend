@@ -2,6 +2,8 @@ pt-BR:
   suppliers:
     index:
       title: Usuários de fornecedor
+      empty: Nenhum resultado
+
       list:
         title: Lista de Usuários de fornecedor
       button:

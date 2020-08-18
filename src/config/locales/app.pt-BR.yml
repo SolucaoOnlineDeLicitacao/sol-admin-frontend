@@ -8,6 +8,8 @@ pt-BR:
   btn:
     confirm: Confirmar
     cancel: Cancelar
+    edit: Editar
+    destroy: Excluir
 
   messages:
     not_informed: não informado
@@ -18,3 +20,7 @@ pt-BR:
 
   search:
     placeholder: Buscar...
+
+  dialog:
+    back: Voltar
+    destroy: Excluir

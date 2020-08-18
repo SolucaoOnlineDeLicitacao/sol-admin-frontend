@@ -3,3 +3,4 @@ pt-BR:
     index:
       title: Notificações
       empty: Sem resultados
+      unread: Apenas notificações não lidas

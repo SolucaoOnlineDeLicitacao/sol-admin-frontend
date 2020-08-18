@@ -43,7 +43,7 @@
               model="supplier",
               v-model="supplier.provider_id",
               :options="selectedProvider",
-              placeholder="Selecione uma opção",
+              :placeholder="$t('options.blank')",
               :error="errors.provider",
               url="/search/providers"
             )

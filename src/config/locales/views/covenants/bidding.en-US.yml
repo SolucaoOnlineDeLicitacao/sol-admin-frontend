@@ -1,0 +1,91 @@
+﻿en-US:
+  covenants:
+    biddings:
+      index:
+        title: Procurement Processes
+        list:
+          title: Procurement Process Approval
+
+        search:
+          placeholder: Search by procurement process number or description (purpose)
+
+        details: Details
+
+        button:
+          details: Procurement process lots
+          proposals: List of proposals
+
+      show:
+        general:
+          title: General information
+        actions:
+          title: Actions
+
+        button:
+          details: Procurement process lots
+          proposals: List of proposals
+          cancelRequest: Reply to cancellation request
+          contracts: Procurement process contracts
+          edict: Download RFP
+          minute: Download Minutes
+          approve: Clear procurement process
+          refuse: Reject procurement process
+          start: Start procurement process
+          review: Submit to revision
+          draw: Break tie and submit to revision
+          failure: Fail procurement process
+
+        cancelOverlay:
+          title: Cancel procurement process
+          alert: Attention! This action cannot be undone.
+          reason: 'Reason for cancellation informed:'
+          label: Response justification description
+          button:
+            approve: Cancel procurement process
+            reprove: Reject cancellation
+
+        refuseOverlay:
+          title: Reject procurement process
+          alert: The procurement process will be rejected and remain available to the cooperative in draft mode.
+          label: Rejection justification description
+          button: Reject procurement process
+
+        failureOverlay:
+          title: Fail procurement process
+          alert: The procurement process and its lots will be failed. Attention! This action cannot be undone.
+          label: Failure justification description
+          button: Fail procurement process
+
+        notifications:
+          finish:
+            success: Procurement process successfully completed
+            failure: An error occurred when completing the procurement process
+
+          fail:
+            success: Procurement process successfully failed
+            failure: An error occurred when failing the procurement process
+
+          ongoing:
+            success: Procurement process successfully started
+            failure: An error occurred when starting the procurement process
+
+          approved:
+            success: Procurement process successfully cleared
+            failure: An error occurred when clearing the procurement process
+
+          reproved:
+            success: Procurement process successfully rejected
+            failure: An error occurred when rejecting the procurement process
+
+          review:
+            success: Procurement process successfully updated
+            failure: An error occurred when reviewing the procurement process
+
+          cancel:
+            approve:
+              success: Procurement process successfully canceled
+              failure: An error occurred when cancelling the procurement process
+
+            reprove:
+              success: Cancellation successfully rejected
+              failure: An error occurred when rejecting the cancellation request

@@ -1,0 +1,22 @@
+﻿en-US:
+  models:
+    item:
+      one: Cost item
+      other: Cost items
+
+      attributes:
+        id: Code (ID)
+        code: Code
+        title: Title
+        description: Specification
+        unit: Unit
+        unitId: Unit
+        classificationId: Category/Segment
+        childrenClassificationId: Product
+
+      errors:
+        title:
+          missing: Title cannot be blank
+        description:
+          missing: Specification cannot be blank
+

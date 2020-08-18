@@ -1,0 +1,9 @@
+﻿en-US:
+  models:
+    lot_group_item_lot_proposal:
+      one: Quote item
+      other: Quote items
+
+      attributes:
+        id: Code (ID)
+        price: Quote unit value (BRL)

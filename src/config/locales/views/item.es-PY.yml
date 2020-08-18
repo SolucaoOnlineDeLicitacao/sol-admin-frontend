@@ -1,0 +1,53 @@
+﻿es-PY:
+  items:
+    index:
+      title: Ítems
+      empty: Sin resultados
+
+      list:
+        title: Lista de ítems
+      button:
+        new: Nuevo ítem
+      search:
+        placeholder: Busque por nombre o documento del ítem
+
+      destroy:
+        title: Eliminar ítem de costo
+        body: ¿Está seguro de que desea eliminar este ítem de costo? La exclusión del ítem lo eliminará de todos los convenios.
+
+      notifications:
+        destroy:
+          success: Ítem eliminado con éxito
+          failure: Hubo un error al eliminar el ítem. Ítem vinculado a uno o más convenios
+
+    new:
+      title: Nuevo ítem
+      general:
+        title: Datos del ítem
+
+      fields:
+        name:
+          placeholder: Informe el nombre del ítem
+        cnpj:
+          placeholder: Informe el documento
+
+      button:
+        submit: Crear ítem
+        submitting: Creando ítem
+
+      notifications:
+        failure: Hubo un error al crear el ítem
+
+
+    edit:
+      title: Editar ítem
+
+      notifications:
+        failure: Hubo un error al editar el ítem
+
+      button:
+        submit: Editar ítem
+        submitting: Editando ítem
+
+    show:
+      title: Datos del ítem

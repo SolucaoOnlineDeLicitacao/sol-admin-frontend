@@ -1,0 +1,30 @@
+﻿es-PY:
+  models:
+    admin:
+      one: Administrador
+      other: Administradores
+
+      attributes:
+        id: Código (ID)
+        name: Nombre
+        email: Correo electrónico
+        covenantId: Convenio
+        covenantName: Convenio
+        password: Contraseña
+        passwordConfirmation: Confirmación de la contraseña
+        role: Papel (tipo)
+        roles:
+          viewer: Visualizador
+          general: Administradores generales
+          reviewer: Revisor
+
+      errors:
+        admin:
+          not_found: Correo electrónico no registrado
+        name:
+          missing: El nombre no puede quedar en blanco
+        covenant:
+          missing: El convenio no puede quedar en blanco
+        email:
+          missing: El correo electrónico no puede quedar en blanco
+

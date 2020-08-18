@@ -1,0 +1,27 @@
+﻿es-PY:
+  reports:
+    biddings:
+      status:
+        title: Informes
+        chart:
+          title: General
+
+        tabs:
+          status: Licitaciones
+          contracts: Contratos
+          index: Informes generales
+          reports: Informes generados
+
+        report_name: Licitaciones
+
+        button:
+          download: Generar informe
+          downloading: Generando...
+
+        dashboard:
+          total: 'Cantidad total de licitaciones:'
+          value: 'Valor estimado total de las licitaciones:'
+
+        card:
+          total: 'Cantidad de licitaciones:'
+          value: 'Valor estimado de las licitaciones:'

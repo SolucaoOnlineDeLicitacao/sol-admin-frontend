@@ -1,0 +1,47 @@
+﻿es-PY:
+  integrations:
+    index:
+      title: Integraciones
+
+      button:
+        submit: Editar integración
+        submitting: Editando integración
+        import: Forzar integración
+        importing: Integrando
+        cancel: Cancelar
+
+      modal:
+        title: Detalles de importación
+        last_import: "Última importación:"
+        import_log: "Log de la importación:"
+        not_informed: No informado
+        no_informations: Sin informaciones
+
+      notifications:
+        cooperative:
+          import:
+            success: Integración de la asociación iniciada con éxito
+            failure: Hubo un error al iniciar la integración de la asociación
+
+          update:
+            success: Integración de la asociación modificada con éxito
+            failure: Hubo un error al editar la integración de la asociación
+
+        item:
+          import:
+            success: Integración de Ítem de costo iniciada con éxito
+            failure: Hubo un error al iniciar la integración de ítem de costo
+
+          update:
+            success: Integración de Ítem de costo modificada con éxito
+            failure: Hubo un error al editar la integración de ítem de costo
+
+        covenant:
+          import:
+            success: Integración del convenio iniciada con éxito
+            failure: Hubo un error al iniciar la integración del convenio
+
+          update:
+            success: Integración del convenio modificada con éxito
+            failure: Hubo un error al editar la integración del convenio
+

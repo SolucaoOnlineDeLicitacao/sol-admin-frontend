@@ -38,7 +38,7 @@
 
         .three.columns
           label {{ $t('models.covenant.attributes.estimatedCost') }}
-          span(v-if="covenant.estimated_cost") R$ {{ parseFloat(covenant.estimated_cost).toLocaleString('pt-BR', {minimumFractionDigits: 2 }) }}
+          span(v-if="covenant.estimated_cost") {{ $asCurrency(parseFloat(covenant.estimated_cost)) }}
 
         .two.columns
           label {{ $t('models.covenant.attributes.signatureDate') }}
@@ -90,7 +90,7 @@
               template(v-if="$ability.canManage('Covenant')")
                 td
                   router-link.button.router-link(:to="{ name: 'editGroup', params: { covenant_id: covenant.id, id: group.id } }")
-                    | Editar
+                    | {{ $t('btn.edit') }}
 
                 td-destroy(:id="group.id", :title="$t('.destroy.title')", :body="$t('.destroy.body')", @success="destroy(group.id)")
 

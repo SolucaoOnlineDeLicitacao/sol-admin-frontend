@@ -73,7 +73,7 @@
               model="legal_representative",
               v-model="legal_representative.civil_state",
               :options="civilStates",
-              placeholder="Selecione uma opção",
+              :placeholder="$t('options.blank')",
               :error="errorsLegalRepresentative['legal_representative.civil_state']"
             )
 

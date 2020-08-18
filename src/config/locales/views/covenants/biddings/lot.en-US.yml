@@ -1,0 +1,13 @@
+﻿en-US:
+  covenants:
+    biddings:
+      lots:
+        index:
+          title: Procurement Processes
+          lot_group_items_count: Items
+          list:
+            title: List of lots
+          button:
+            details: View proposals
+
+          files: Lot files

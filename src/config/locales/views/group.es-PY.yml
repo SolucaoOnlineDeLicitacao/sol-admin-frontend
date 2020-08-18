@@ -1,0 +1,46 @@
+﻿es-PY:
+  groups:
+    new:
+      title: Nuevo grupo
+      items:
+        title: Ítems de costo del grupo
+
+      button:
+        submit: Crear grupo
+        submitting: Creando grupo
+
+      notifications:
+        failure: Hubo un error al crear el grupo
+
+      add:
+        add: Añadir
+        error: Complete todos los campos para agregar un ítem
+        already: El ítem ya figura en la lista a continuación
+        list: Lista de ítems
+
+    edit:
+      title: Editar grupo
+
+      items:
+        title: Ítems de costo del grupo
+
+      button:
+        submit: Editar grupo
+        submitting: Editando grupo
+
+      notifications:
+        failure: Hubo un error al editar el grupo
+
+      add:
+        add: Añadir
+        error: Complete todos los campos para agregar un ítem
+        already: El ítem ya figura en la lista a continuación
+        list: Lista de ítems
+
+    show:
+      general:
+        title: Detalles del grupo
+        edit: Editar
+
+      table:
+        available_quantity: Cantidad disponible/total

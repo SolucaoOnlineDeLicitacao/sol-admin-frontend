@@ -43,7 +43,7 @@
     headers(:title="this.$t('.title')")
     .container.tool.biddings.u-cf(v-if="isLoading")
       .alert.alert-info
-        | Carregando propostas...
+        | {{ $t('.loading') }}
 
     .container.tool.biddings.u-cf(v-else-if="proposalsCount > 0")
       .card.mb-2.u-cf.u-full-width(v-for="proposal in proposals")

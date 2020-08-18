@@ -60,7 +60,7 @@
             template(v-if="$ability.canManage('Admin')")
               td
                 router-link.button.router-link(:to="{ name: 'editAdmin', params: { id: admin.id } }")
-                  | Editar
+                  | {{ $t('btn.edit') }}
 
               td-destroy(:id="admin.id", :title="$t('.destroy.title')", :body="$t('.destroy.body')", @success="destroy(admin.id)")
 

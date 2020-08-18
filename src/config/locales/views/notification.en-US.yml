@@ -1,0 +1,6 @@
+﻿en-US:
+  notifications:
+    index:
+      title: Notifications
+      empty: No results
+      unread: Only unread notifications

@@ -1,0 +1,46 @@
+﻿en-US:
+  groups:
+    new:
+      title: New group
+      items:
+        title: Group cost items
+
+      button:
+        submit: Create group
+        submitting: Creating group
+
+      notifications:
+        failure: An error occurred when creating the group
+
+      add:
+        add: Add
+        error: Fill out all fields to add an item
+        already: Item already listed below
+        list: List of items
+
+    edit:
+      title: Edit group
+
+      items:
+        title: Group cost items
+
+      button:
+        submit: Edit group
+        submitting: Editing group
+
+      notifications:
+        failure: An error occurred when editing the group
+
+      add:
+        add: Add
+        error: Fill out all fields to add an item
+        already: Item already listed below
+        list: List of items
+
+    show:
+      general:
+        title: Group details
+        edit: Edit
+
+      table:
+        available_quantity: Total/available quantity

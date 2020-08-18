@@ -1,0 +1,28 @@
+﻿en-US:
+  biddings:
+    contracts:
+      index:
+        title: Contracts of procurement process %{bidding}
+        empty: No results
+
+        search:
+          placeholder: Search by contract number
+
+      show:
+        title: Contract %{title}
+        general:
+          title: General information
+        actions:
+          title: Signatures
+
+        signatures:
+          title: Signatures
+          waiting: Awaiting signature
+          refused: Contract rejected
+          not_signed: Contract not signed
+
+        refused:
+          at: 'Contract rejected in %{value}'
+
+        button:
+          download: Download original contract

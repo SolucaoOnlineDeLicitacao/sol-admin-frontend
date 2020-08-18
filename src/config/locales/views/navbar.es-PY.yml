@@ -1,0 +1,21 @@
+﻿es-PY:
+  navbar:
+    app: SOL
+    home: Inicio
+    users: Usuarios
+    cooperatives: Asociaciones
+    providers: Proveedores
+    items: Ítems de costo
+    covenants: Convenios
+    integrations: Integraciones
+    biddings: Licitaciones
+    reports: Informes
+    button:
+      logout:
+        label: Salir
+        labelOngoing: Saliendo
+
+    notifications:
+      logout:
+        success: ¡Éxito!
+        failure: ¡Error al salir!

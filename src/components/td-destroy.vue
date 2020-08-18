@@ -4,7 +4,7 @@
 <template lang="pug">
   td(@click="destroyDialog")
     .button
-      | Excluir
+      | {{ $t('btn.destroy') }}
 
 </template>
 
@@ -29,8 +29,8 @@
         let message = { title: this.title, body: this.body }
 
         let options = {
-          cancelText: 'Voltar',
-          okText: 'Excluir',
+          cancelText: this.$t('dialog.back'),
+          okText: this.$t('dialog.destroy'),
           customClass: 'dg-delete'
         }
 

@@ -1,0 +1,13 @@
+﻿es-PY:
+  covenants:
+    biddings:
+      lots:
+        index:
+          title: Licitaciones
+          lot_group_items_count: Ítems
+          list:
+            title: Lista de lotes
+          button:
+            details: Ver propuestas
+
+          files: Archivos del lote

@@ -1,0 +1,41 @@
+﻿en-US:
+  reports:
+    index:
+      title: Reports
+      chart:
+        title: General
+
+      tabs:
+        status: Procurement Processes
+        contracts: Contracts
+        index: General reports
+        reports: Reports generated
+
+      report_name: General reports
+
+      filter:
+        label: Filter by report
+
+      table:
+        status: Status
+        type: Report
+        date: Processing date
+        file: File
+        empty: No results
+
+      button:
+        download: Generate report
+        downloading: Generating...
+        fetch: Download report
+
+      keys:
+        time: Procurement process by time
+        items: Similar items
+        suppliers_biddings: Vendors and procurement processes
+        suppliers_contracts: Vendors and contracts
+
+      descriptions:
+        time: Procurement report based on performance period.
+        items: Report of cost item value variations.
+        suppliers_biddings: Report of vendors most frequently invovled in procurement processes.
+        suppliers_contracts: Report of vendors with highest number and value of contracts.

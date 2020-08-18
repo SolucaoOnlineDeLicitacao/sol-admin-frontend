@@ -1,0 +1,9 @@
+﻿es-PY:
+  models:
+    lot_group_item_lot_proposal:
+      one: Ítem de la cotización
+      other: Ítems de la cotización
+
+      attributes:
+        id: Código (ID)
+        price: Valor unitario de la cotización (R$)

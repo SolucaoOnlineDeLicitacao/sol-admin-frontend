@@ -1,0 +1,27 @@
+﻿en-US:
+  reports:
+    biddings:
+      status:
+        title: Reports
+        chart:
+          title: General
+
+        tabs:
+          status: Procurement Processes
+          contracts: Contracts
+          index: General reports
+          reports: Reports generated
+
+        report_name: Procurement Processes
+
+        button:
+          download: Generate report
+          downloading: Generating...
+
+        dashboard:
+          total: 'Total number of procurement processes:'
+          value: 'Total estimated value of procurement processes:'
+
+        card:
+          total: 'Number of procurement processes:'
+          value: 'Estimated value of procurement processes:'

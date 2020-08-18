@@ -104,7 +104,7 @@
               .row
                 .six.columns
                   .button(@click="toggleEdit(integration.type)")
-                    | Cancelar
+                    | {{ $t('.button.cancel') }}
                 .six.columns
                   button.u-pull-right.button-primary(
                     type="submit",
@@ -135,7 +135,7 @@
               .row(v-if="$ability.canManageIntegration()")
                 .columns.six
                   .button(@click="toggleEdit(integration.type)")
-                    | Editar
+                    | {{ $t('btn.edit') }}
 
                 .columns.six
                   form(ref="formForce", method="post", @submit.prevent="submitForce(integration)")
@@ -147,19 +147,19 @@
 
     modal-wnd(v-if="showModal", :footer="false", @close="showModal = false")
       h5.modal-heading(slot="header")
-        | Detalhes da importação -
-        |  {{ $t('models.' + this.modalIntegration.type + '.one') }}
+        | {{ $t('.modal.title') }}
+        | {{ $t('models.' + this.modalIntegration.type + '.one') }}
 
       hr.mt-0.mb-1
 
       .row.mb-2
-        label Última importação:
-        | {{ this.modalIntegration.last_importation || 'Não informado' }}
+        label {{ $t('.modal.last_import') }}
+        | {{ this.modalIntegration.last_importation || $t('.modal.not_informed') }}
 
       .row
-        label Log da importação:
+        label {{ $t('.modal.import_log') }}
         .log-row
-          | {{ this.modalIntegration.log || 'Sem informações' }}
+          | {{ this.modalIntegration.log || $t('.modal.no_informations') }}
 
 </template>
 
@@ -254,6 +254,8 @@
       },
 
       integrationStatus(status) {
+        if (status == null) return
+
         return this.$t('models.integration.attributes.statuses.' + status)
       },
 

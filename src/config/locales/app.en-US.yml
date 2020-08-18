@@ -1,0 +1,26 @@
+﻿en-US:
+  app: 'sdc-admin-frontend.vue'
+
+  button:
+    search: Search
+    searching: Searching
+
+  btn:
+    confirm: Confirm
+    cancel: Cancel
+    edit: Edit
+    destroy: Delete
+
+  messages:
+    not_informed: not informed
+
+  options:
+    blank: Choose an option
+    prompt: Choose an option
+
+  search:
+    placeholder: Search...
+
+  dialog:
+    back: Cancel
+    destroy: Delete

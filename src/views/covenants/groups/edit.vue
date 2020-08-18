@@ -63,23 +63,21 @@
             )
 
           .two.columns
-            input-field(
+            numeric-field(
               :autofocus="true",
               model="group_item",
-              type="text",
               v-model="group_item.quantity",
-              mask="999999999999,09",
-              name="group_item[quantity]"
+              name="group_item[quantity]",
+              :label="$t('models.group_item.attributes.quantity')"
             )
 
           .two.columns
-            input-field(
+            numeric-field(
               :autofocus="true",
               model="group_item",
-              type="text",
               v-model="group_item.estimated_cost",
               name="group_item[estimated_cost]",
-              mask="999999999999,09"
+              :label="$t('models.group_item.attributes.estimated_cost')"
             )
 
           .two.columns
@@ -111,27 +109,25 @@
                 input(type="hidden", name="group[group_items_attributes][][item_id]", :value="group_item.item_id" v-if="group_item")
 
               td(v-if="!group_item._destroy")
-                input-field(
+                numeric-field(
                   v-if="group_item",
                   :autofocus="true",
                   model="group_item",
-                  type="text",
                   v-model="group_item.quantity",
-                  mask="999999999999,09",
                   name="group[group_items_attributes][][quantity]",
                   :error="groupItemErrors[index] && groupItemErrors[index]['quantity']",
+                  :label="$t('models.group_item.attributes.quantity')"
                 )
 
               td(v-if="!group_item._destroy")
-                input-field(
+                numeric-field(
                   v-if="group_item",
                   :autofocus="true",
                   model="group_item",
-                  type="text",
                   v-model="group_item.estimated_cost",
                   name="group[group_items_attributes][][estimated_cost]",
                   :error="groupItemErrors[index] && groupItemErrors[index]['estimated_cost']",
-                  mask="999999999999,09"
+                  :label="$t('models.group_item.attributes.estimated_cost')"
                 )
 
               td(v-if="!group_item._destroy")

@@ -87,7 +87,7 @@
         tbody(v-else)
           tr
             td.text-center(colspan='5')
-              | Sem resultados
+              | {{ $t('.empty') }}
 
       .row
         .twelve.columns

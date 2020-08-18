@@ -1,0 +1,47 @@
+﻿en-US:
+  integrations:
+    index:
+      title: Integrations
+
+      button:
+        submit: Edit integration
+        submitting: Editing integration
+        import: Force integration
+        importing: Integrating
+        cancel: Cancel
+
+      modal:
+        title: Import details
+        last_import: "Last import:"
+        import_log: "Import Log:"
+        not_informed: Not informed
+        no_informations: No informations
+
+      notifications:
+        cooperative:
+          import:
+            success: Cooperative integration successfully started
+            failure: An error occurred when starting cooperative integration
+
+          update:
+            success: Cooperative integration successfully changed
+            failure: An error occurred when editing cooperative integration
+
+        item:
+          import:
+            success: Cost item integration successfully started
+            failure: An error occurred when starting cost item integration
+
+          update:
+            success: Cost item integration successfully changed
+            failure: An error occurred when editing cost item integration
+
+        covenant:
+          import:
+            success: Covenant integration successfully started
+            failure: An error occurred when starting covenant integration
+
+          update:
+            success: Covenant integration successfully changed
+            failure: An error occurred when editing covenant integration
+

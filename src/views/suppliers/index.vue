@@ -68,7 +68,7 @@
             template(v-if="$ability.canManage('Supplier')")
               td
                 router-link.button.router-link(:to="{ name: 'editSupplier', params: { id: supplier.id } }")
-                  | Editar
+                  | {{ $t('btn.edit') }}
 
               td-destroy(:id="supplier.id", :title="$t('.destroy.title')", :body="$t('.destroy.body')", @success="destroy(supplier.id)")
 
