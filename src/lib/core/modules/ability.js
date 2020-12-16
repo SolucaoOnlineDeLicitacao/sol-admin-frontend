@@ -10,10 +10,6 @@ const ability = {
   get user() {
     return store.get('user')
   },
-  
-  isGeneral() {
-    return this.user['role'] == 'general'
-  },
 
   rules() {
     return this.user['rules']
@@ -52,11 +48,7 @@ const ability = {
   // custom management
 
   canManageIntegration() {
-    return this.isGeneral()
-  },
-
-  canStartBidding() {
-    return this.isGeneral()
+    return this.user['role'] == 'general'
   }
 }
 
