@@ -1,0 +1,22 @@
+﻿fr-FR:
+  models:
+    item:
+      one: Poste de coût
+      other: Postes de coût
+
+      attributes:
+        id: Code (ID)
+        code: Code
+        title: Titre
+        description: Spécification
+        unit: Unité
+        unitId: Unité
+        classificationId: Catégorie / segment
+        childrenClassificationId: Produit
+
+      errors:
+        title:
+          missing: Le champ Titre ne peut pas rester en blanc
+        description:
+          missing: Le champ Spécification ne peut pas rester en blanc
+

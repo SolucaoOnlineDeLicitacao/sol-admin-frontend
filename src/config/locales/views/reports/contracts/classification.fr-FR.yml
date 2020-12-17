@@ -1,0 +1,27 @@
+﻿fr-FR:
+  reports:
+    contracts:
+      classification:
+        title: Rapports
+        chart:
+          title: Généralités
+
+        tabs:
+          status: Appels d'offres
+          contracts: Contrats
+          index: Rapports généraux
+          reports: Rapports gérés
+
+        report_name: Contrats
+
+        button:
+          download: Générer un rapport
+          downloading: Génération...
+
+        dashboard:
+          total: 'Quantité totale de contrats:'
+          value: 'Valeur totale des contrats:'
+
+        card:
+          total: 'Quantité de contrats:'
+          value: 'Valeur totale des contrats:'

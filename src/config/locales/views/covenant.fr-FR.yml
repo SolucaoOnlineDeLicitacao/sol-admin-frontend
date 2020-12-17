@@ -1,0 +1,79 @@
+﻿fr-FR:
+  covenants:
+    index:
+      title: Conventions
+      empty: Sans résultats
+
+      list:
+        title: Liste des conventions
+      button:
+        new: Nouvelle convention
+      search:
+        placeholder: Chercher par le nom ou par le numéro de la convention
+
+      destroy:
+        title: Exclure la convention
+        body: Vous confirmez l'exclusion de cette convention?
+
+      notifications:
+        destroy:
+          success: Convention exclue avec succès
+          failure: Il y a eu une erreur lors de l'exclusion de la convention Il y a des appel d'offres liés à la convention.
+
+    new:
+      title: Nouvelle convention
+      general:
+        title: Données de la Convention
+      work_plan:
+        title: Donnés du Plan de travail
+
+      fields:
+        name:
+          placeholder: Informez le nom de la convention
+        number:
+          placeholder: Informez le numéro
+
+      button:
+        submit: Créer convention
+        submitting: Création convention
+
+      notifications:
+        failure: Il y a eu une erreur lors de la création de la convention
+
+
+    edit:
+      title: Editer la convention
+      general:
+        title: Données de la Convention
+      work_plan:
+        title: Donnés du Plan de travail
+
+      notifications:
+        failure: Il y a eu une erreur lors de l'édition de la convention
+
+      button:
+        submit: Editer la convention
+        submitting: Edition de la Convention
+
+    show:
+      title: Détails de la Convention
+      general:
+        title: Données de la Convention
+
+      destroy:
+        title: Exclure groupe
+        body: Vous confirmez l'exclusion de ce groupe?
+
+      notifications:
+        destroy:
+          success: Groupe exclu avec succès
+          failure: Il y a eu une erreur lors de l'exclusion du groupe. Il y a des appel d'offres liés au groupe.
+
+
+      work_plan:
+        title: Plan de travail
+
+        groups:
+          empty: Aucun groupe de postes
+          button:
+            new: Nouveau groupe de postes

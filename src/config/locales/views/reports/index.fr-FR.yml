@@ -1,0 +1,41 @@
+﻿fr-FR:
+  reports:
+    index:
+      title: Rapports
+      chart:
+        title: Généralités
+
+      tabs:
+        status: Appels d'offres
+        contracts: Contrats
+        index: Rapports généraux
+        reports: Rapports gérés
+
+      report_name: Rapports généraux
+
+      filter:
+        label: Filtrer par rapport
+
+      table:
+        status: Situation
+        type: Rapport
+        date: Date du traitement
+        file: Fichier
+        empty: Sans résultats
+
+      button:
+        download: Générer un rapport
+        downloading: Génération...
+        fetch: Télécharger un rapport
+
+      keys:
+        time: Appel d'offres par période
+        items: Postes similaires
+        suppliers_biddings: Fournisseurs et appels d'offres
+        suppliers_contracts: Fournisseurs et contrats
+
+      descriptions:
+        time: Rapport d'appels d'offres selon la période de réalisation.
+        items: Rapport de la variation de la valeur des postes de coût.
+        suppliers_biddings: Rapport de fournisseurs qui participent le plus des appels d'offres.
+        suppliers_contracts: Rapport de fournisseurs ayant le plus grand nombre et la plus grande valeur de contrats.

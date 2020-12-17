@@ -1,0 +1,20 @@
+﻿fr-FR:
+  models:
+    report:
+      one: Appel d'offre
+      other: Appels d'offres
+
+      attributes:
+        types:
+          biddings: Appels d'offres
+          contracts: Contrats
+          time: Appel d'offres par période
+          items: Postes similaires
+          suppliers_biddings: Fournisseurs et appels d'offres
+          suppliers_contracts: Fournisseurs et contrats
+
+        statuses:
+          waiting: À la queue
+          processing: En traitement
+          error: erreur
+          success: Généré

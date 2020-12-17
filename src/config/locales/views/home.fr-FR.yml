@@ -1,0 +1,14 @@
+﻿fr-FR:
+  home:
+    loading: En téléchargement...
+    dashboard: Dashboard
+
+    features:
+      title: En vedette
+      cooperatives_total: Associations enregistrées
+      providers_total: Fournisseurs enregistrés
+      ongoing_licitations_total: Appels d'offres en cours
+
+    notifications:
+      title: Notifications
+      empty: Sans notifications

@@ -1,0 +1,21 @@
+﻿fr-FR:
+  navbar:
+    app: SOL
+    home: Accueil
+    users: Utilisateurs
+    cooperatives: Associations
+    providers: Fournisseurs
+    items: Eléments de coût
+    covenants: Conventions
+    integrations: Intégrations
+    biddings: Appels d'offres
+    reports: Rapports
+    button:
+      logout:
+        label: Sortir
+        labelOngoing: La sortie
+
+    notifications:
+      logout:
+        success: Réussi!
+        failure: Erreur en sortant!
