@@ -18,7 +18,7 @@
       notifications:
         destroy:
           success: Convention exclue avec succès
-          failure: Il y a eu une erreur lors de l'exclusion de la convention Il y a des appel d'offres liés à la convention.
+          failure: Il y a eu une erreur lors de l'exclusion de la convention Il y a des appels d'offres liés à la convention.
 
     new:
       title: Nouvelle convention
@@ -67,7 +67,7 @@
       notifications:
         destroy:
           success: Groupe exclu avec succès
-          failure: Il y a eu une erreur lors de l'exclusion du groupe. Il y a des appel d'offres liés au groupe.
+          failure: Il y a eu une erreur lors de l'exclusion du groupe. Il y a des appels d'offres liés au groupe.
 
 
       work_plan:

@@ -3,7 +3,7 @@
     new:
       title: Nouveau groupe
       items:
-        title: Postes de coût du groupe
+        title: Éléments de coût du groupe
 
       button:
         submit: Créer groupe
@@ -22,7 +22,7 @@
       title: Editer groupe
 
       items:
-        title: Postes de coût du groupe
+        title: Éléments de coût du groupe
 
       button:
         submit: Editer groupe

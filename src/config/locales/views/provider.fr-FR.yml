@@ -12,7 +12,7 @@
 
       destroy:
         title: Exclure fournisseur
-        body: Vous confirmez l'exclusion de ce fournisseur?
+        body: Vous confirmez l'exclusion de ce fournisseur ?
 
       notifications:
         destroy:
@@ -66,7 +66,7 @@
       title: Données du fournisseur
 
       status:
-        title: 'Situation:'
+        title: 'Situation :'
         blocked: bloqué
         unblocked: Accès libéré
 
@@ -81,7 +81,7 @@
         title: Evénements de blocage
         empty: Aucun événement de blocage
 
-        message: 'Evénement de %{type} enregistré le %{date}. Raison: "%{comment}".'
+        message: 'Evénement de %{type} enregistré le %{date}. Raison : "%{comment}".'
         done_by: 'Enregistré par %{name}'
 
         button:
@@ -93,21 +93,21 @@
 
       notifications:
         block:
-          success: Fournisseur bloqué avec succès!
+          success: Fournisseur bloqué avec succès !
           failure: Il a été impossible de bloquer le fournisseur.
         unblock:
-          success: Fournisseur débloqué avec succès!
+          success: Fournisseur débloqué avec succès !
           failure: Il a été impossible de débloquer le fournisseur.
 
       overlay:
         block:
           title: Bloquer fournisseur
-          alert: "Attention: Cette action bloquera l'accès du fournisseur à la plateforme"
+          alert: "Attention : Cette action bloquera l'accès du fournisseur à la plateforme"
           label: Raison du blocage
           submit: Bloquer fournisseur
 
         unblock:
           title: Débloquer fournisseur
-          alert: "Attention: Cette action bloquera l'accès du fournisseur à la plateforme"
+          alert: "Attention : Cette action libérera l'accès du fournisseur à la plateforme"
           label: Raison du déblocage
           submit: Débloquer fournisseur

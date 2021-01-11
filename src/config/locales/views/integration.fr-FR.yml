@@ -6,14 +6,14 @@
       button:
         submit: Editer intégration
         submitting: Edition intégration
-        import: Forcer intégration
+        import: Forcer l'intégration
         importing: En intégration
         cancel: Annuler
 
       modal:
         title: Détails de l'importation
-        last_import: "Dernière importation:"
-        import_log: "Log de l'importation:"
+        last_import: "Dernière importation :"
+        import_log: "Log de l'importation :"
         not_informed: Non informé
         no_informations: Sans informations
 
@@ -21,27 +21,27 @@
         cooperative:
           import:
             success: Intégration de l'Association lancée avec succès
-            failure: Il y a eu une erreur lors de l'intégration de l'association
+            failure: Il y a eu une erreur lors de l'initialisation de l'intégration de l'association
 
           update:
             success: Intégration de l'Association modifiée avec succès
-            failure: Il y a eu une erreur lors de l'intégration de l'association
+            failure: Il y a eu une erreur lors de l'edition de l'intégration de l'association
 
         item:
           import:
-            success: Intégration de Poste de coût lancée avec succès
-            failure: Il y a eu une erreur lors de l'intégration de poste de coût
+            success: Intégration de élement de coût lancée avec succès
+            failure: Il y a eu une erreur lors de l'initialisation de l'intégration de élement de coût
 
           update:
-            success: Intégration de Poste de coût modifiée avec succès
-            failure: Il y a eu une erreur lors de l'intégration de poste de coût
+            success: Intégration de élement de coût modifiée avec succès
+            failure: Il y a eu une erreur lors de l'édition de l'intégration de élement de coût
 
         covenant:
           import:
             success: Intégration de la Convention lancée avec succès
-            failure: Il y a eu une erreur lors de l'intégration de la convention
+            failure: Il y a eu une erreur lors de l'initialisation de l'intégration de la convention
 
           update:
             success: Intégration de la Convention modifiée avec succès
-            failure: Il y a eu une erreur lors de l'intégration de la convention
+            failure: Il y a eu une erreur lors de l'édition de l'intégration de la convention
 

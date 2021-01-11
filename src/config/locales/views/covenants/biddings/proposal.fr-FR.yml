@@ -10,10 +10,10 @@
           proposal:
             status: 'Offre %{status}'
             value: Valeur de l'offre
-            total: 'Valeur totale:'
-            refuse: 'Raison du rejet:'
+            total: 'Valeur totale :'
+            refuse: 'Raison du rejet :'
 
-          lot: 'Poste: %{value}'
+          lot: 'Poste : %{value}'
 
           button:
             cancelRefuse: Annuler le rejet
@@ -24,7 +24,7 @@
           cancelRefuseOverlay:
             title: Annuler le rejet
             alert: Le rejet de l'offre sera annulé et le système libérera les offres pour que l'association les analyse à nouveau.
-            label: Décrivez la justificative du rejet
+            label: Décrivez la justificative du refus
             button: Annuler le rejet
 
           reproveProposalOverlay:
@@ -40,8 +40,8 @@
 
             refuse:
               success: Offre rejetée avec succès.
-              failure: Il y a eu une erreur lors du rejet de l'offre.
+              failure: Il y a eu une erreur lors du refus de l'offre.
 
             fail:
               success: Offre rejetée avec succès.
-              failure: Il y a eu une erreur lors du rejet de l'offre.
+              failure: Il y a eu une erreur lors du refus de l'offre.

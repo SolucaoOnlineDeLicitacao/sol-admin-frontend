@@ -13,7 +13,7 @@
 
       destroy:
         title: Exclure l'utilisateur
-        body: Vous confirmez l'exclusion de cet utilisateur?
+        body: Vous confirmez l'exclusion de cet utilisateur ?
 
       notifications:
         destroy:

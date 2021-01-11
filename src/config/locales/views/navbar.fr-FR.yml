@@ -5,7 +5,7 @@
     users: Utilisateurs
     cooperatives: Associations
     providers: Fournisseurs
-    items: Eléments de coût
+    items: Éléments de coût
     covenants: Conventions
     integrations: Intégrations
     biddings: Appels d'offres
@@ -17,5 +17,5 @@
 
     notifications:
       logout:
-        success: Réussi!
-        failure: Erreur en sortant!
+        success: Réussi !
+        failure: Erreur en sortant !

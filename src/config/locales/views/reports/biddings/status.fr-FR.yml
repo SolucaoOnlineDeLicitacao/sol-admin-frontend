@@ -19,9 +19,9 @@
           downloading: Génération...
 
         dashboard:
-          total: "Quantité totale d'appel d'offres:"
-          value: "Valeur estimée des appels d'offres:"
+          total: "Quantité totale d'appel d'offres :"
+          value: "Valeur estimée totale des appels d'offres :"
 
         card:
-          total: "Quantité d'appel d'offres:"
-          value: "Valeur estimée des appels d'offres:"
+          total: "Quantité d'appel d'offres :"
+          value: "Valeur estimée des appels d'offres :"

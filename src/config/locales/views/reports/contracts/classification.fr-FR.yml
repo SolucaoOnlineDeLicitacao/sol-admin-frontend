@@ -10,7 +10,7 @@
           status: Appels d'offres
           contracts: Contrats
           index: Rapports généraux
-          reports: Rapports gérés
+          reports: Rapports générés
 
         report_name: Contrats
 
@@ -19,9 +19,9 @@
           downloading: Génération...
 
         dashboard:
-          total: 'Quantité totale de contrats:'
-          value: 'Valeur totale des contrats:'
+          total: 'Quantité totale de contrats :'
+          value: 'Valeur totale des contrats :'
 
         card:
-          total: 'Quantité de contrats:'
-          value: 'Valeur totale des contrats:'
+          total: 'Quantité de contrats :'
+          value: 'Valeur des contrats :'

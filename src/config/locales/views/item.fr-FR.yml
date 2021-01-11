@@ -12,8 +12,8 @@
         placeholder: Cherchez par le nom ou par le document du poste
 
       destroy:
-        title: Exclure poste de coût
-        body: Vous confirmez l'exclusion de ce poste de coût? L'exclusion de ce poste le supprimera de toutes les conventions.
+        title: Exclure élement de coût
+        body: Vous confirmez l'exclusion de ce élement de coût ? L'exclusion de ce poste le supprimera de toutes les conventions.
 
       notifications:
         destroy:

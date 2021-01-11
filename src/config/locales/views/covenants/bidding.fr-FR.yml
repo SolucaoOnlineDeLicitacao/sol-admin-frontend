@@ -12,7 +12,7 @@
         details: Détails
 
         button:
-          details: Lots l'appel d'offres
+          details: Lots de l'appel d'offres
           proposals: Liste des offres
 
       show:
@@ -37,7 +37,7 @@
 
         cancelOverlay:
           title: Annuler l'appel d'offres
-          alert: Attention! Cette action ne pourra plus être annulée.
+          alert: Attention ! Cette action ne pourra plus être annulée.
           reason: "Raison informée de l'annulation:"
           label: Décrivez la justificative de la réponse
           button:
@@ -52,7 +52,7 @@
 
         failureOverlay:
           title: Echouer l'appel d'offres
-          alert: L'appel d'offres et ses lots vont échouer. Attention! Cette action ne pourra plus être annulée.
+          alert: L'appel d'offres et ses lots vont échouer. Attention ! Cette action ne pourra plus être annulée.
           label: Décrivez la justificative de l'échec
           button: Echouer l'appel d'offres
 
@@ -62,7 +62,7 @@
             failure: Il y a eu une erreur lors de la conclusion de l'appel d'offres
 
           fail:
-            success: Appel d'offres conclu avec succès
+            success: Appel d'offres échoué avec succès
             failure: Il y a eu une erreur lors de l'échec de l'appel d'offres
 
           ongoing:

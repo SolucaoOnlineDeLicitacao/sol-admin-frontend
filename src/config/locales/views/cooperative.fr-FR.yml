@@ -13,7 +13,7 @@
 
       destroy:
         title: Exclure l'association
-        body: Vous confirmez l'exclusion de cette association?
+        body: Vous confirmez l'exclusion de cette association ?
 
       notifications:
         destroy:

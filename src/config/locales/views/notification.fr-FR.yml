@@ -3,4 +3,4 @@
     index:
       title: Notifications
       empty: Sans résultats
-      unread: Seulement les notifications à lire
+      unread: Seulement les notifications non lues
