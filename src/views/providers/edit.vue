@@ -42,7 +42,8 @@
               name="provider[document]",
               :error="errors.document",
               :label="documentLabel",
-              :mask="providerMask"
+              :mask="providerMask",
+              :key="provider.type"
             )
 
         .row
@@ -225,14 +226,14 @@
       },
 
       documentLabel() {
-        let type = this.provider_type
+        let type = this.provider.type
 
         if(type == 'Individual') return 'CPF'
         return 'CNPJ'
       },
 
       providerMask() {
-        let type = this.provider_type
+        let type = this.provider.type
 
         if(type == 'Individual') {
           return { mask: '000.000.000-00', options: { reverse: true, clearIfNotMatch: true } }
