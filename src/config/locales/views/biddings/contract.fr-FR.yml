@@ -1,0 +1,28 @@
+﻿fr-FR:
+  biddings:
+    contracts:
+      index:
+        title: Contrats de l'appel d'offres %{bidding}
+        empty: Sans résultats
+
+        search:
+          placeholder: Cherchez par le numéro du contrat
+
+      show:
+        title: Contrat %{title}
+        general:
+          title: Données générales
+        actions:
+          title: Signatures
+
+        signatures:
+          title: Signatures
+          waiting: En attente de signature
+          refused: Contrat refusé
+          not_signed: Contrat non signé
+
+        refused:
+          at: 'Contrat refusé en %{value}'
+
+        button:
+          download: Télécharger le contrat original

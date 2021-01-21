@@ -1,0 +1,91 @@
+﻿fr-FR:
+  covenants:
+    biddings:
+      index:
+        title: Appels d'offres
+        list:
+          title: Approbation de l'appel d'offres
+
+        search:
+          placeholder: Cherchez par le numéro ou la description (objet) da appel d'offres
+
+        details: Détails
+
+        button:
+          details: Lots de l'appel d'offres
+          proposals: Liste des offres
+
+      show:
+        general:
+          title: Données générales
+        actions:
+          title: Actions
+
+        button:
+          details: Lots de l'appel d'offres
+          proposals: Liste des offres
+          cancelRequest: Répondre à une demande d'annulation
+          contracts: Contrats de l'appel d'offres
+          edict: Télécharger le Cahier des Charges
+          minute: Télécharger ATA
+          approve: Libérer l'appel d'offres
+          refuse: Refuser l'appel d'offres
+          start: Lancer l'appel d'offres
+          review: Envoyer pour révision
+          draw: Départager et envoyer pour révision
+          failure: Echouer l'appel d'offres
+
+        cancelOverlay:
+          title: Annuler l'appel d'offres
+          alert: Attention ! Cette action ne pourra plus être annulée.
+          reason: "Raison informée de l'annulation:"
+          label: Décrivez la justificative de la réponse
+          button:
+            approve: Annuler l'appel d'offres
+            reprove: Refuser l'annulation
+
+        refuseOverlay:
+          title: Refuser l'appel d'offres
+          alert: L'appel d'offres sera refusé et sera mis à la disposition de l'association en mode projet pour être édité.
+          label: Décrivez la justificative du refus
+          button: Refuser l'appel d'offres
+
+        failureOverlay:
+          title: Echouer l'appel d'offres
+          alert: L'appel d'offres et ses lots vont échouer. Attention ! Cette action ne pourra plus être annulée.
+          label: Décrivez la justificative de l'échec
+          button: Echouer l'appel d'offres
+
+        notifications:
+          finish:
+            success: Appel d'offres conclu avec succès
+            failure: Il y a eu une erreur lors de la conclusion de l'appel d'offres
+
+          fail:
+            success: Appel d'offres échoué avec succès
+            failure: Il y a eu une erreur lors de l'échec de l'appel d'offres
+
+          ongoing:
+            success: Appel d'offres lancé avec succès
+            failure: Il y a eu une erreur lors du lancement de l'appel d'offres
+
+          approved:
+            success: Appel d'offres libéré avec succès
+            failure: Il y a eu une erreur lors de la libération de l'appel d'offres
+
+          reproved:
+            success: Appel d'offres désapprouvé avec succès
+            failure: Il y a eu une erreur à désapprouver l'appel d'offres
+
+          review:
+            success: Appel d'offres mis à jour avec succès
+            failure: Il y a eu une erreur à la révision de l'appel d'offres
+
+          cancel:
+            approve:
+              success: Appel d'offres annulé avec succès
+              failure: Il y a eu une erreur à annuler l'appel d'offres
+
+            reprove:
+              success: Annulation désapprouvée avec succès
+              failure: Il y a eu une erreur à désapprouver l'annulation

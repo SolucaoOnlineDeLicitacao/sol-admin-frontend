@@ -1,0 +1,9 @@
+﻿fr-FR:
+  models:
+    lot_group_item_lot_proposal:
+      one: Poste de la cotation
+      other: Éléments de la cotation
+
+      attributes:
+        id: Code (ID)
+        price: Valeur unitaire de la cotation (R$)

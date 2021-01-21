@@ -1,0 +1,30 @@
+﻿fr-FR:
+  models:
+    admin:
+      one: Administrateur
+      other: Administrateurs
+
+      attributes:
+        id: Code (ID)
+        name: Nom
+        email: E-mail
+        covenantId: Convention
+        covenantName: Convention
+        password: Code d'accès
+        passwordConfirmation: Confirmation du code d'accès
+        role: Rôle (type)
+        roles:
+          viewer: Visualisateur
+          general: Administrateurs en général
+          reviewer: Réviseur
+
+      errors:
+        admin:
+          not_found: E-mail non enregistré
+        name:
+          missing: Le champ Nom ne peut pas rester en blanc
+        covenant:
+          missing: Le champ Convention ne peut pas rester en blanc
+        email:
+          missing: Le champ E-mail ne peut pas rester en blanc
+

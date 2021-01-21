@@ -1,0 +1,113 @@
+﻿fr-FR:
+  providers:
+    index:
+      title: Fournisseurs
+      empty: Aucun résultat
+      list:
+        title: Liste des fournisseurs
+      button:
+        new: Nouveau fournisseur
+      search:
+        placeholder: Cherchez par le nom ou par le document du fournisseur
+
+      destroy:
+        title: Exclure fournisseur
+        body: Vous confirmez l'exclusion de ce fournisseur ?
+
+      notifications:
+        destroy:
+          success: Fournisseur exclu avec succès
+          failure: Il y a eu une erreur lors de l'exclusion du fournisseur
+
+    new:
+      title: Nouveau fournisseur
+      general:
+        title: Données du fournisseur
+
+      classifications:
+        title: Catégories et segments
+        error: Il faut informer au moins une catégorie et/ou segment.
+        button:
+          add: Ajouter
+          remove: Supprimer
+
+      fields:
+        name:
+          placeholder: Informez le nom du fournisseur
+        cnpj:
+          placeholder: Informez le document
+
+      button:
+        submit: Créer fournisseur
+        submitting: Création du fournisseur
+
+      notifications:
+        failure: Il y a eu une erreur lors de la création du fournisseur
+
+
+    edit:
+      title: Editer Fournisseur
+
+      notifications:
+        failure: Il y a eu une erreur lors de l'édition du fournisseur
+
+      classifications:
+        title: Catégories et segments
+        error: Il faut informer au moins une catégorie et/ou segment.
+        button:
+          add: Ajouter
+          remove: Supprimer
+
+      button:
+        submit: Editer Fournisseur
+        submitting: Edition du fournisseur
+
+    show:
+      title: Données du fournisseur
+
+      status:
+        title: 'Situation :'
+        blocked: bloqué
+        unblocked: Accès libéré
+
+      attachments:
+        title: Documents
+        empty: Aucun document n'a été annexé
+
+      classifications:
+        title: Catégories et segments
+
+      events:
+        title: Evénements de blocage
+        empty: Aucun événement de blocage
+
+        message: 'Evénement de %{type} enregistré le %{date}. Raison : "%{comment}".'
+        done_by: 'Enregistré par %{name}'
+
+        button:
+          block: Bloquer fournisseur
+          unblock: Débloquer fournisseur
+        status:
+          blocked: 'blocage'
+          unblocked: 'déblocage'
+
+      notifications:
+        block:
+          success: Fournisseur bloqué avec succès !
+          failure: Il a été impossible de bloquer le fournisseur.
+        unblock:
+          success: Fournisseur débloqué avec succès !
+          failure: Il a été impossible de débloquer le fournisseur.
+
+      overlay:
+        block:
+          title: Bloquer fournisseur
+          alert: "Attention : Cette action bloquera l'accès du fournisseur à la plateforme"
+          label: Raison du blocage
+          submit: Bloquer fournisseur
+
+        unblock:
+          title: Débloquer fournisseur
+          alert: "Attention : Cette action libérera l'accès du fournisseur à la plateforme"
+          label: Raison du déblocage
+          submit: Débloquer fournisseur

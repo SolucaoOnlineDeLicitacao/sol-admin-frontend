@@ -1,0 +1,27 @@
+﻿fr-FR:
+  reports:
+    biddings:
+      status:
+        title: Rapports
+        chart:
+          title: Généralités
+
+        tabs:
+          status: Appels d'offres
+          contracts: Contrats
+          index: Rapports généraux
+          reports: Rapports générés
+
+        report_name: Appels d'offres
+
+        button:
+          download: Générer un rapport
+          downloading: Génération...
+
+        dashboard:
+          total: "Quantité totale d'appel d'offres :"
+          value: "Valeur estimée totale des appels d'offres :"
+
+        card:
+          total: "Quantité d'appel d'offres :"
+          value: "Valeur estimée des appels d'offres :"

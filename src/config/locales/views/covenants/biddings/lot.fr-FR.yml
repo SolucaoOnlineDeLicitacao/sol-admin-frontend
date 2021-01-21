@@ -1,0 +1,13 @@
+﻿fr-FR:
+  covenants:
+    biddings:
+      lots:
+        index:
+          title: Appels d'offres
+          lot_group_items_count: Postes
+          list:
+            title: Liste des postes
+          button:
+            details: Exhiber offres
+
+          files: Fichiers du lot

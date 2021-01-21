@@ -9,6 +9,11 @@
       float: left;
     }
 
+    .small-logout-btn {
+      width: 90px;
+      padding-left: 23px;
+    }
+
     a {
       color: $white;
       text-decoration: none;
@@ -115,7 +120,12 @@
             i.fa.fa-bell
             .notification-badge(v-if="unreadsCount") {{ unreadsCount }}
 
-      button.u-pull-right(type="button", data-action="logout", @click="logout")
+      button(
+        type="button",
+        data-action="logout",
+        @click="logout",
+        :class="this.$i18n.locale == 'fr-FR' ? 'u-pull-right small-logout-btn' : 'u-pull-right'"
+      )
         | {{ btnLogoutLabel }}
 
 </template>

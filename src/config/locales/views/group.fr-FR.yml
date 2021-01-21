@@ -1,0 +1,46 @@
+﻿fr-FR:
+  groups:
+    new:
+      title: Nouveau groupe
+      items:
+        title: Éléments de coût du groupe
+
+      button:
+        submit: Créer groupe
+        submitting: Création groupe
+
+      notifications:
+        failure: Il y a eu une erreur lors de la création du groupe
+
+      add:
+        add: Ajouter
+        error: Remplissez tous les champs pour ajouter un poste
+        already: Le poste est déjà répertorié dans la liste ci-dessous
+        list: Liste des postes
+
+    edit:
+      title: Editer groupe
+
+      items:
+        title: Éléments de coût du groupe
+
+      button:
+        submit: Editer groupe
+        submitting: Edition groupe
+
+      notifications:
+        failure: Il y a eu une erreur lors de l'édition du groupe
+
+      add:
+        add: Ajouter
+        error: Remplissez tous les champs pour ajouter un poste
+        already: Le poste est déjà répertorié dans la liste ci-dessous
+        list: Liste des postes
+
+    show:
+      general:
+        title: Détails du groupe
+        edit: Editer
+
+      table:
+        available_quantity: Quantité disponible / totale
