@@ -57,7 +57,8 @@
               name="provider[document]",
               :error="errors.document",
               :label="documentLabel",
-              :mask="providerMask"
+              :mask="providerMask",
+              :key="provider.type"
             )
 
         AddressFields(:errors="errorsAddress" prefix="provider" :address="address")
