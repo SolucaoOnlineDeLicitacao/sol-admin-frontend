@@ -92,6 +92,24 @@
           :name="prefix + '[address_attributes][reference_point]'",
           :error="errors[errorPrefix + 'address.reference_point']"
         )
+
+    .row(v-if="show_contact")
+      .six.columns
+        phone-field(
+          name="cooperative[address_attributes][phone]",
+          type="text",
+          v-model="address.phone",
+          :error="errors.phone"
+        )
+
+      .six.columns
+        input-field(
+          type="text",
+          model="address",
+          v-model="address.email",
+          :name="prefix + '[address_attributes][email]'",
+          :error="errors[errorPrefix + 'address.email']"
+        )
 </template>
 
 <script>
@@ -100,7 +118,8 @@
       address: { Object, default: () => [] },
       errors: Object,
       errorPrefix: { String, default: '' },
-      prefix: String
+      prefix: String,
+      show_contact: Boolean
     },
 
     data() {

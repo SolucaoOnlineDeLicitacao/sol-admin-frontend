@@ -1,5 +1,9 @@
 ﻿es-PY:
   models:
+    cooperative:
+      attributes:
+        phone: Teléfono
+
     address:
       one: Dirección
       other: Direcciones
@@ -15,6 +19,8 @@
         cep: C.P.
         complement: Complemento
         referencePoint: Punto de referencia
+        phone: Teléfono
+        email: Correo electrónico
 
       errors:
         address:

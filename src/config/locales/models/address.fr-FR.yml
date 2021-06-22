@@ -1,5 +1,9 @@
 ﻿fr-FR:
   models:
+    cooperative:
+      attributes:
+        phone: Téléphone
+
     address:
       one: Adresse
       other: Adresses
@@ -15,6 +19,8 @@
         cep: Cedex
         complement: Complément
         referencePoint: Point de repère
+        phone: Téléphone
+        email: Email
 
       errors:
         address:

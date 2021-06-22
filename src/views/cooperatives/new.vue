@@ -51,7 +51,7 @@
               :mask="cnpjMask"
             )
 
-        AddressFields(:errors="errorsAddress" prefix="cooperative" :address="address")
+        AddressFields(:errors="errorsAddress" prefix="cooperative" :address="address" show_contact=true)
 
         .row
           .twelve.columns
@@ -120,7 +120,6 @@
             )
 
           AddressFields(:errors="errorsLegalRepresentativeAddress" prefix="cooperative[legal_representative_attributes]"  :address="legal_representative_address" errorPrefix="legal_representative.")
-
 
           .row
             .twelve.columns

@@ -67,6 +67,15 @@
           label {{ $t('models.address.attributes.referencePoint') }}
           span {{ address.reference_point }}
 
+      .row
+        .six.columns
+          label {{ $t('models.address.attributes.phone') }}
+          span {{ address.phone || $t('messages.not_informed') }}
+
+        .six.columns
+          label {{ $t('models.address.attributes.email') }}
+          span {{ address.email || $t('messages.not_informed') }}
+
       hr
 
       .row
