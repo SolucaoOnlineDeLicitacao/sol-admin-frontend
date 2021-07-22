@@ -1,5 +1,9 @@
 ﻿en-US:
   models:
+    cooperative:
+      attributes:
+        phone: Phone
+
     address:
       one: Address
       other: Addresses
@@ -15,6 +19,8 @@
         cep: Postal code (CEP)
         complement: Second address line
         referencePoint: Point of reference
+        phone: Phone
+        email: Email
 
       errors:
         address:

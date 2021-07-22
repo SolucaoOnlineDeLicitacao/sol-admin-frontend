@@ -38,7 +38,7 @@
           .twelve.columns
             h4.title {{ $t('models.address.one') }}
 
-        AddressFields(:errors="errorsAddress" prefix="cooperative" :address="address")
+        AddressFields(:errors="errorsAddress" prefix="cooperative" :address="address" show_contact=true)
 
         .row
           .twelve.columns

@@ -120,7 +120,7 @@
               .button.button-primary.u-full-width(v-else-if="bidding.status == 'draw' && $ability.canManage('Bidding')" @click="forceReviewBidding(bidding)")
                 | {{ $t('.button.draw') }}
         .row
-          .four.columns.offset-by-eight
+          .four.columns.offset-by-eight(v-if="!isReviewer")
             .button.button-danger.u-full-width(v-if="canFailure" @click="showFailureOverlay = true")
               | {{ $t('.button.failure') }}
 
@@ -239,6 +239,14 @@
 
       canFailure() {
         return (! _.includes(['finnished', 'canceled', 'failure', 'waiting'], this.bidding.status)) && this.$ability.canManage('Bidding')
+      },
+
+      isReviewer() {
+        if (this.bidding.user_role === 'reviewer') {
+          return true
+        } else {
+          return false
+        }
       }
     },
 

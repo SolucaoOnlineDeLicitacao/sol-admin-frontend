@@ -1,5 +1,9 @@
 pt-BR:
   models:
+    cooperative:
+      attributes:
+        phone: Telefone
+
     address:
       one: Endereço
       other: Endereços
@@ -15,6 +19,8 @@ pt-BR:
         cep: CEP
         complement: Complemento
         referencePoint: Ponto de referência
+        phone: Telefone
+        email: E-mail
 
       errors:
         address:
